@@ -1,1 +1,382 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="vender/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vender/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,300italic' rel='stylesheet' type='text/css'>
+        <title>Pigment Incubator</title>
+    </head>
+    <body>
+		<section class="section-header">
+			<header>
+				<div class="row">
+					<a href="index.html">
+					<div class="col span-1-of-4">
+						
+							<img class="brandpic" src="img/black%20PI%20logo.png" alt="brand pic">
+					</div></a>
+					<div class="col span-1-of-4">
+						<div class="index-header-button">
+							<a class="btn btn-box js--scroll-to-reg" href="#">Sign in</a>
+							<a class="btn btn-box js--scroll-to-reg" href="#">Sign up</a>
+						</div>
+					</div>
+				</div>
+			</header>
+		</section>
+		
+		<section class="section-poster js--section-poster">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner indexslider" role="listbox">
+				<div class="item active poster-pic">
+				  <img src="img/poster1.jpg" alt="1 slide">
+				  <div class="carousel-caption">
+					<h1> </h1>
+				  </div>
+				</div>
+				<div class="item poster-pic">
+				  <img src="img/poster2.jpg" alt="2 slide">
+				  <div class="carousel-caption">
+					<h1> </h1>
+				  </div>
+				</div>
+				<div class="item poster-pic">
+				  <img src="img/poster3.jpg" alt="3 slide">
+				  <div class="carousel-caption">
+					<h1> </h1>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</section>
+		
+        <section class="section-form js--section-form">
+            <div class="row">
+                <h2>Welcome to PI ART!</h2>
+            </div>
+			<div class="container formcontainer" type="text/x-handlebars-template">
+				<!-- {{#if logged_out}} -->
+				<form class="form-horizontal js--login-signup">
+				  <div class="form-group">
+					<label for="inputEmail3" class="col-sm-1 control-label"></label>
+					<div class="col-sm-10">
+					  <input type="email" class="form-control js--userid-input" id="inputEmail3" placeholder="Email or username">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label for="inputPassword3" class="col-sm-1 control-label"></label>
+					<div class="col-sm-10">
+					  <input type="password" class="form-control js-password-input" id="inputPassword3" placeholder="Password">
+					</div>
+				  </div>
+				<div class="form-group js--comfirm-password">
+					<label for="inputPassword3" class="col-sm-1 control-label"></label>
+					<div class="col-sm-10">
+					  <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm your password" required="required">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+					  <div class="checkbox js--remember-me remember-me">
+						<label>
+						  <input type="checkbox">Remember me
+						</label>
+					  </div>
+					</div>
+				  </div>
+				  
+					  <!-- {{#if unmatched_password}}
+					  	<p class="js--alert-message">Comfirmation password does not match.</p>
+					  {{/if}} -->
+				
+				  <div class="form-group threebtn">
+						<a class="btn btn-box formleft js--login">LOGIN</a>
+					  	<a class="btn btn-box formmiddle js--register">Register</a>
+						<a class="btn btn-box formright js--joinfree" >JOIN FREE!</a>
+				  </div>
+				</form>
+				<h3>OR</h3>
+				<p>Login with:</p>
+				<ul class="social-links fourlinks">
+							<li><a href="#"><i class="ion-social-facebook link-facebook"></i></a></li>
+							<li><a href="#"><i class="ion-social-twitter link-twitter"></i></a></li>
+							<li><a href="#"><i class="ion-social-googleplus link-googleplus"></i></a></li>
+							<li><a href="#"><i class="ion-social-instagram link-instagram"></i></a></li>
+				</ul>
+				<!-- {{/if}} -->
+			</div>
+
+        </section>
+		
+		
+		
+		<section class="section-lab">
+			<div class="lab_itembig"><div class="hexagon hexagon2big"><div class="hexagon-in1">
+        	<div class="hexagon-in2" style="background-image: url('img/touxiang.jpg');">
+			</div></div></div></div>
+			<br/>
+    		<article>	
+				
+		<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#fff"></div></div></div></div>
+				<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#f4a3ff"></div></div></div></div>
+<div class="lab_item"></div>
+				<div class="lab_item"></div>
+				<div class="lab_item"></div>
+				
+				<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#a5afff"></div></div></div></div>
+				<div class="lab_item"></div>
+				
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#ffcc91"></div></div></div></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#b9ffb3"></div></div></div></div>
+<div class="lab_item"></div>
+				<div class="lab_item"></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#baf2f0"></div></div></div></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#bee6ff"></div></div></div></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#5a6dff"></div></div></div></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#ffcf8e"></div></div></div></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#87ffba"></div></div></div></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#d59cff"></div></div></div></div>
+
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#a83535"></div></div></div></div>
+<div class="lab_item"></div>
+				<div class="lab_item"></div>
+				<div class="lab_item"></div>
+				<div class="lab_item"></div>
+				<div class="lab_item"></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#a83535"></div></div></div></div>
+<div class="lab_item"></div>
+				<div class="lab_item"></div>
+				<div class="lab_item"></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#a83535"></div></div></div></div>
+
+<div class="lab_item"></div>
+								<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color:#a83535"></div></div></div></div>
+
+
+
+	</article>
+</section>
+		
+		<section class="section-service">
+		    <div class="row">
+                <h2>Services</h2>
+				<h3>Share your works today and become famous in the internet community.</h3>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+            		<a href='showcase.html'>
+	                    <div class="servicebox js--change-color">
+	                        <div>
+	                            <img src="img/sevice1.png">
+	                        </div>
+	                        <div>
+	                            <p>
+	                                <a href="showcase.html">Gallery</a>
+	                            </p>
+	                        </div>
+	                    </div>
+                	</a>
+                
+                </div>
+                <div class="col span_1_of_3">
+            		<a href='magzine.html'>
+	                    <div class="servicebox">
+	                        <div>
+	                            <img src="img/sevice2.png">
+	                        </div>
+	                        <div>
+	                            <p>
+	                                <a href="magzine.html">Magazine info</a>
+	                            </p>
+	                        </div>
+	                    </div>
+                	</a>
+                </div>
+                <div class="col span_1_of_3">
+                    <div class="servicebox">
+                        <div>
+                            <img src="img/sevice3.png">
+                        </div>
+                        <div>
+                            <p>
+                                <a href="aboutus.html">About us</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+                    <div class="servicebox">
+                        <div>
+                            <img src="img/sevice4.png">
+                        </div>
+                        <div>
+                            <p>
+                                <a href="contactus.html">Contact us</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="col span_1_of_3">
+                    <div class="servicebox">
+                        <div>
+                            <img src="img/sevice2.png">
+                        </div>
+                        <div>
+                            <p>
+                                COMING SOON
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		
+		</section>
+		<section class="section-footer">
+		    <div class="mainfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+						<img src="img/black%20PI%20logo.png">
+						<ul class="social-links">
+							<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+							<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+							<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+							<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+						</ul>
+
+
+						</div>
+						<div class="col-md-8">
+							<div class="col-md-4">
+							<h4>Company</h4>
+
+								<div><a href="aboutus.html">About us</a></div>
+								<div><a href="contactus.html">Contact us</a></div>
+							<div>We're hiring</div>
+
+							</div>
+							<div class="col-md-8">
+
+								<div class="col-md-6">
+								<h4>Services</h4>
+									<div><a href="showcase.html">Gallery</a></div>
+									<div><a href="magzine.html">Magazine info</a></div>
+
+								</div>
+								<div class="col-md-6 js--wp-1">
+								<h4>Wechat</h4>
+								<img src="img/erweima.jpg" alt="erweima">
+								</div>
+
+
+							</div>
+
+						</div>
+					</div>
+				 </div>
+			 </div>
+            <div class="row copyright">
+                <p>
+                    Copyright &copy; 2015 by Pigment Incubator. All rights reserved.
+                </p>
+            </div>
+		</section>
+    <div class="entry">
+    </div>
+    <script id="artwork-entry-template" type="text/x-handlebars-template">
+      {{#each this}}
+        <h1>{{picture}}</h1>
+        <h1>{{sell_permission}}</h1>
+        <div>
+          {{sell_link}}
+        </div>
+    {{/each}}
+    </script>
+        <script src="vender/jquery-2.1.4.js"></script>
+        <script src="vender/handlebars.js"></script>
+        <script src="vender/json2.js"></script>
+        
+        <script src="vender/underscore.js"></script>
+        <script src="vender/backbone.js"></script>
+        <script src="vender/backbone.localStorage.js"></script>
+        <!-- Problem here: what do we need to load when we have multipla js files?  -->
+        <script data-main="app" src="vender/require.js"></script>
+		<script src="http://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+		<script src="http://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="http://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+		<script src="js/animation/jquery.waypoints.min.js"></script>
+
+		<script src="js/animation/script.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

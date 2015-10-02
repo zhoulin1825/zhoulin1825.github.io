@@ -1,0 +1,17 @@
+localStorage: 
+sign in: true/false
+user_id: id
+
+load:
+collection: badge
+
+total X works;
+each work:
+pic: url(outside)
+
+load more:
+
+(inside)
+
+sell: true/false
+sell_url: 

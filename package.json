@@ -1,0 +1,31 @@
+{
+  "name": "backbone-login",
+  "keywords": "backbone, backbonejs, authentication",
+  "description": "Authentication best practices & demo using a Backbone.js Session Model",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderscott/backbone-login.git"
+  },
+  "author": "Alex Ehrnschwender <alexanderscott46@gmail.com> (http://alexehrnschwender.com)",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "*",
+    "express": "~3.x.x",
+    "hbs": "~2.4.0",
+    "sqlite3": "*",
+    "underscore": "~1.5.2"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "subdomain": "backbone-login",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/alexanderscott/backbone-login/raw/master/LICENSE"
+    }
+  ]
+}

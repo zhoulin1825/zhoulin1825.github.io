@@ -8,29 +8,20 @@
         <link rel="stylesheet" type="text/css" href="vender/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vender/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,300italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900italic,900,700italic,700,500italic,500,400italic,300italic,100italic,100' rel='stylesheet' type='text/css'>
         <title>Pigment Incubator</title>
     </head>
     <body>
-		<section class="section-header">
-			<header>
-				<div class="row">
-					<a href="index.html">
-					<div class="col span-1-of-4">
-						
-							<img class="brandpic" src="img/black%20PI%20logo.png" alt="brand pic">
-					</div></a>
-					<div class="col span-1-of-4">
-						<div class="index-header-button">
-							<a class="btn btn-box js--scroll-to-reg" href="#">Sign in</a>
-							<a class="btn btn-box js--scroll-to-reg" href="#">Sign up</a>
-						</div>
-					</div>
+		<section class="section-header sticky">
+			<a class="headername" href="index.html"><p>Pigment</p></a>
+			<a class="headername2"><p>>></p></a>
+				<div class="index-header-button">
+					<a class="headerbtn" href="#">Login</a>
 				</div>
-			</header>
 		</section>
 		
 		<section class="section-poster js--section-poster">
+			<h1>Art. Design. Architecture</h1>
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
@@ -47,19 +38,20 @@
 				  </div>
 				</div>
 				<div class="item poster-pic">
-				  <img src="img/poster2.jpg" alt="2 slide">
+				  <img src="img/poster1.jpg" alt="2 slide">
 				  <div class="carousel-caption">
 					<h1> </h1>
 				  </div>
 				</div>
 				<div class="item poster-pic">
-				  <img src="img/poster3.jpg" alt="3 slide">
+				  <img src="img/poster1.jpg" alt="3 slide">
 				  <div class="carousel-caption">
 					<h1> </h1>
 				  </div>
 				</div>
 			  </div>
 			  <!-- Controls -->
+			  
 			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
@@ -75,237 +67,430 @@
             <div class="row">
                 <h2>Welcome to PI ART!</h2>
             </div>
-			<div class="container formcontainer" type="text/x-handlebars-template">
-				<!-- {{#if logged_out}} -->
-				<form class="form-horizontal js--login-signup">
-				  <div class="form-group">
+			<div class=" formcontainer signinform">
+				<h3>Sign in with email</h3>
+				<form class="form-horizontal">
+				  <div class="form-group ">
 					<label for="inputEmail3" class="col-sm-1 control-label"></label>
-					<div class="col-sm-10">
-					  <input type="email" class="form-control js--userid-input" id="inputEmail3" placeholder="Email or username">
+					<div class="col-sm-10 setformmargin">
+					  <input type="email" class="form-control" id="inputEmail3" placeholder="Email or username">
+						<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
 					</div>
+					<label class="remenber_me">
+							<input type="checkbox"> <p>Remember me</p>
+					</label>
 				  </div>
+
 				  <div class="form-group">
-					<label for="inputPassword3" class="col-sm-1 control-label"></label>
-					<div class="col-sm-10">
-					  <input type="password" class="form-control js-password-input" id="inputPassword3" placeholder="Password">
-					</div>
+						<a class="btn btn-box formleft" href="#">LOGIN</a>
 				  </div>
-				<div class="form-group js--comfirm-password">
-					<label for="inputPassword3" class="col-sm-1 control-label"></label>
-					<div class="col-sm-10">
-					  <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm your password" required="required">
-					</div>
-				  </div>
-				  <div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10">
-					  <div class="checkbox js--remember-me remember-me">
-						<label>
-						  <input type="checkbox">Remember me
-						</label>
-					  </div>
-					</div>
-				  </div>
-				  
-					  <!-- {{#if unmatched_password}}
-					  	<p class="js--alert-message">Comfirmation password does not match.</p>
-					  {{/if}} -->
-				
-				  <div class="form-group threebtn">
-						<a class="btn btn-box formleft js--login">LOGIN</a>
-					  	<a class="btn btn-box formmiddle js--register">Register</a>
-						<a class="btn btn-box formright js--joinfree" >JOIN FREE!</a>
-				  </div>
+				<a  class="forgetpass" href="#">Forget your password</a>
 				</form>
-				<h3>OR</h3>
-				<p>Login with:</p>
+				<p class="formor">OR</p>
+				<h3>Sign in with:</h3>
 				<ul class="social-links fourlinks">
 							<li><a href="#"><i class="ion-social-facebook link-facebook"></i></a></li>
 							<li><a href="#"><i class="ion-social-twitter link-twitter"></i></a></li>
 							<li><a href="#"><i class="ion-social-googleplus link-googleplus"></i></a></li>
 							<li><a href="#"><i class="ion-social-instagram link-instagram"></i></a></li>
 				</ul>
-				<!-- {{/if}} -->
 			</div>
 
+			
+			<div class=" formcontainer signupform">
+				<h3>Sign up with email</h3>
+				<form class="form-horizontal">
+				  <div class="form-group">
+					<label for="inputEmail3" class="col-sm-1 control-label"></label>
+					<div class="col-sm-10 setformmargin">
+					  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+						<input type="text" class="form-control" id="inputusername" placeholder="Username">
+						<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+						<input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password">
+					</div>
+					  <label class="remenber_me">
+							<input type="checkbox"> <p>Agree to our Terms of service</p>
+						</label>
+				  </div>
+
+
+				  <div class="form-group">
+						<a class="btn btn-box formleft" href="#">GET STARTED!</a>
+				  </div>
+				</form>
+			</div>
         </section>
 		
 		
+		<section class="userview">
+			
+			<div class="lineuserimg">
+				<div class="boxFbig">                
+					<div class="boxSbig">                    
+						<div class="boxTbig" style="background-image: url(IMG_0812.JPG);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  				
+			</div>
+			
+			
+			
+			<div class="lineF">   
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(152,219,225);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+			</div>        <!--第二行(lineSecond)-->    
+			
+			<div class="lineS">   
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(152,219,225);">                       
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(178,154,148);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div> 
+			</div>        <!--第二行(lineSecond)-->    			
+			<div class="lineT">   
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(190,188,184);">                          
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(247,243,178);">                            
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div> 
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(221,219,214);">                         
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div> 
+			</div>       
+			
+			
+			<div class="line1">   
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(230,226,223);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+			</div>        <!--第二行(lineSecond)-->    
+			
+			<div class="line2">   
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(196,229,154);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(236,234,232);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(196,226,228);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div> 
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(241,240,206);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+			</div>        <!--第二行(lineSecond)-->    
+			
+			<div class="line3">   
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(138,135,155);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(249,178,146);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(241,240,206);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+			</div>        <!--第二行(lineSecond)-->    
+			<div class="line4">   
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(255,141,143);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(164, 146, 224);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(152,219,225);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>   
+			</div>        <!--第二行(lineSecond)-->    
+			<div class="line5">   
+				<div class="boxF">                
+					<div class="boxS">                    
+						<div class="boxT" style="background-color: rgb(221, 148, 218);">                        
+							<div class="overlay">                            
+								<a href="#">+</a>                        
+							</div>                    
+						</div>                
+					</div>            
+				</div>  
+			</div>        <!--第二行(lineSecond)-->    
+			<div class="form-group formedit">
+				<a class="btn btn-box formleft" href="#">EDIT</a>
+			</div>
+		</section>
 		
-		<section class="section-lab">
-			<div class="lab_itembig"><div class="hexagon hexagon2big"><div class="hexagon-in1">
-        	<div class="hexagon-in2" style="background-image: url('img/touxiang.jpg');">
-			</div></div></div></div>
-			<br/>
-    		<article>	
-				
-		<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#fff"></div></div></div></div>
-				<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#f4a3ff"></div></div></div></div>
-<div class="lab_item"></div>
-				<div class="lab_item"></div>
-				<div class="lab_item"></div>
-				
-				<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#a5afff"></div></div></div></div>
-				<div class="lab_item"></div>
-				
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#ffcc91"></div></div></div></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#b9ffb3"></div></div></div></div>
-<div class="lab_item"></div>
-				<div class="lab_item"></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#baf2f0"></div></div></div></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#bee6ff"></div></div></div></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#5a6dff"></div></div></div></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#ffcf8e"></div></div></div></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#87ffba"></div></div></div></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#d59cff"></div></div></div></div>
-
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#a83535"></div></div></div></div>
-<div class="lab_item"></div>
-				<div class="lab_item"></div>
-				<div class="lab_item"></div>
-				<div class="lab_item"></div>
-				<div class="lab_item"></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#a83535"></div></div></div></div>
-<div class="lab_item"></div>
-				<div class="lab_item"></div>
-				<div class="lab_item"></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#a83535"></div></div></div></div>
-
-<div class="lab_item"></div>
-								<div class="lab_item">
-          <div class="hexagon hexagon2">
-            <div class="hexagon-in1">
-                <div class="hexagon-in2" style="background-color:#a83535"></div></div></div></div>
-
-
-
-	</article>
-</section>
+		
 		
 		<section class="section-service">
 		    <div class="row">
                 <h2>Services</h2>
-				<h3>Share your works today and become famous in the internet community.</h3>
+				<h3>Win badges and build up yourself by using services.</h3>
             </div>
-            <div class="row">
-                <div class="col span_1_of_3">
+			<br>
+            <div class="row serviceline">
+                <div class="service_align">
             		<a href='showcase.html'>
 	                    <div class="servicebox js--change-color">
 	                        <div>
 	                            <img src="img/sevice1.png">
 	                        </div>
 	                        <div>
-	                            <p>
-	                                <a href="showcase.html">Gallery</a>
-	                            </p>
+								<p class="service_title">
+	                                Showcase
+								</p>
+								<p class="service_des">Share own are works to public.</p>
 	                        </div>
 	                    </div>
                 	</a>
                 
                 </div>
-                <div class="col span_1_of_3">
+                <div class="service_align">
             		<a href='magzine.html'>
 	                    <div class="servicebox">
 	                        <div>
 	                            <img src="img/sevice2.png">
 	                        </div>
 	                        <div>
-	                            <p>
-	                                <a href="magzine.html">Magazine info</a>
+	                            <p class="service_title">
+	                                Magazine
 	                            </p>
+								<p class="service_des">Post updated art related info.</p>
 	                        </div>
 	                    </div>
                 	</a>
                 </div>
-                <div class="col span_1_of_3">
-                    <div class="servicebox">
-                        <div>
-                            <img src="img/sevice3.png">
-                        </div>
-                        <div>
-                            <p>
-                                <a href="aboutus.html">About us</a>
-                            </p>
-                        </div>
-                    </div>
+                <div class="service_align">
+					<a href='magzine.html'>
+						<div class="servicebox">
+							<div>
+								<img src="img/sevice3.png">
+							</div>
+							<div>
+								<p class="service_title">
+									Competetion
+								</p>
+								<p class="service_des">Compete with others for big rewards.</p>
+							</div>
+						</div>
+					</a>
                 </div>
+				
             </div>
-            <div class="row">
-                <div class="col span_1_of_3">
-                    <div class="servicebox">
-                        <div>
-                            <img src="img/sevice4.png">
-                        </div>
-                        <div>
-                            <p>
-                                <a href="contactus.html">Contact us</a>
-                            </p>
-                        </div>
-                    </div>
+            <div class="row serviceline">
+                <div class="service_align">
+					<a href='magzine.html'>
+						<div class="servicebox">
+							<div>
+								<img src="img/sevice4.png">
+							</div>
+							<div>
+								<p class="service_title">
+									Academy
+								</p>
+								<p class="service_des">Get help on the academic area by professionals.</p>
+							</div>
+						</div>
+					</a>
                 </div>
 
 
-				<div class="col span_1_of_3">
-                    <div class="servicebox">
-                        <div>
-                            <img src="img/sevice2.png">
-                        </div>
-                        <div>
-                            <p>
-                                COMING SOON
-                            </p>
-                        </div>
-                    </div>
+				<div class="service_align">
+					<a href='magzine.html'>
+						<div class="servicebox">
+							<div>
+								<img src="img/sevice2.png">
+							</div>
+							<div>
+								<p class="service_title">
+									COMING SOON
+								</p>
+							</div>
+						</div>
+					</a>
                 </div>
             </div>
 		
 		</section>
+		
+	
+		
+		
+		
+		
+		
+		<section class="section-access">
+		    <div class="row">
+                <h2>Access</h2>
+				<h3>Share your works today and become famous in the internet community.</h3>
+            </div>
+			<br>
+            <div class="row accessline">
+                <div class="access_align">
+            		<a href='showcase.html'>
+	                    <div class="accessbox accessbox1">
+	                        <div>
+	                            <img src="img/11.jpg">
+	                        </div>
+	                        <div>
+								<p class="access_title">
+	                                about us
+								</p>
+								<p class="access_des">know more about us</p>
+	                        </div>
+	                    </div>
+                	</a>
+                
+                </div>
+                <div class="access_align">
+            		<a href='showcase.html'>
+	                    <div class="accessbox accessbox2">
+	                        <div>
+	                            <img src="img/14.jpg">
+	                        </div>
+	                        <div>
+								<p class="access_title">
+	                                now hiring
+								</p>
+								<p class="access_des">hiring information</p>
+	                        </div>
+	                    </div>
+                	</a>
+                
+                </div>                
+				<div class="access_align">
+            		<a href='showcase.html'>
+	                    <div class="accessbox accessbox3">
+	                        <div>
+	                            <img src="img/4.jpg">
+	                        </div>
+	                        <div>
+								<p class="access_title">
+	                                contect us
+								</p>
+								<p class="access_des">drop us a line</p>
+	                        </div>
+	                    </div>
+                	</a>
+                
+                </div>
+            </div>
+		</section>
+		
+		
+		
+		
+		
 		<section class="section-footer">
 		    <div class="mainfooter">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
+					<div class="row footerrow">
+						<div class="col-md-4 footerleft">
 						<img src="img/black%20PI%20logo.png">
 						<ul class="social-links">
 							<li><a href="#"><i class="ion-social-facebook"></i></a></li>
@@ -316,67 +501,53 @@
 
 
 						</div>
-						<div class="col-md-8">
-							<div class="col-md-4">
-							<h4>Company</h4>
+						
+							<div class="col-md-2 footerright">
+							<h4>Subscribe</h4>
 
-								<div><a href="aboutus.html">About us</a></div>
-								<div><a href="contactus.html">Contact us</a></div>
-							<div>We're hiring</div>
+							<h5>Newsletter</h5>
+							<h5>RSS Feed</h5>
+							<h5>Rss to Email</h5>
 
 							</div>
-							<div class="col-md-8">
+							<div class="col-md-2 footerright">
+								<h4>Company</h4>
+								<h5>About</h5>
+								<h5>Stories</h5>
+								<h5>Online activity</h5>
+								<h5>Academy</h5>
+								<h5>Business</h5>
 
-								<div class="col-md-6">
-								<h4>Services</h4>
-									<div><a href="showcase.html">Gallery</a></div>
-									<div><a href="magzine.html">Magazine info</a></div>
+							</div>
+							<div class="col-md-2 footerright">
+								<h4>Resources</h4>
+								<h5>Articles</h5>
+								<h5>Schools</h5>
 
-								</div>
-								<div class="col-md-6 js--wp-1">
+							</div>
+								
+							<div class="col-md-2 footerright">
 								<h4>Wechat</h4>
 								<img src="img/erweima.jpg" alt="erweima">
-								</div>
-
-
 							</div>
 
-						</div>
 					</div>
-				 </div>
-			 </div>
+			</div>
+			<div class="divider"></div>
             <div class="row copyright">
                 <p>
                     Copyright &copy; 2015 by Pigment Incubator. All rights reserved.
                 </p>
             </div>
 		</section>
-    <div class="entry">
-    </div>
-    <script id="artwork-entry-template" type="text/x-handlebars-template">
-      {{#each this}}
-        <h1>{{picture}}</h1>
-        <h1>{{sell_permission}}</h1>
-        <div>
-          {{sell_link}}
-        </div>
-    {{/each}}
-    </script>
-        <script src="vender/jquery-2.1.4.js"></script>
-        <script src="vender/handlebars.js"></script>
-        <script src="vender/json2.js"></script>
-        
-        <script src="vender/underscore.js"></script>
-        <script src="vender/backbone.js"></script>
-        <script src="vender/backbone.localStorage.js"></script>
-        <!-- Problem here: what do we need to load when we have multipla js files?  -->
-        <script data-main="app" src="vender/require.js"></script>
-		<script src="http://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-		<script src="http://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="http://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+		<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
 		<script src="js/animation/jquery.waypoints.min.js"></script>
 
 		<script src="js/animation/script.js"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
+
+    </body>
 </html>

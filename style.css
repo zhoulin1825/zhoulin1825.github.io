@@ -215,13 +215,16 @@ input[type=submit]:active {
 .formcontainer{
 	width: 340px;
 }
-
+.fomealign {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 .signinform{
 	float: left;
 	text-align: left;
-	margin-left: 210px;
+	margin-left: 100px;
 }
 .signinform h3 ,
 .signupform h3{
@@ -242,7 +245,7 @@ input[type=submit]:active {
 .signupform{
 	float: right;
 	text-align: left;
-	margin-right: 160px;
+	margin-right: 40px;
 	
 }
 .remenber_me{
@@ -329,29 +332,34 @@ input[type=submit]:active {
 	background-color:rgb(236,234,232);
 	height: 740px;
 }
+
+.useralign{
+	max-width: 1200px;
+	margin: 0 auto;
+}
 .formedit{
-	margin-left: 520px;
+	margin-left: 445px;
 	margin-top: 360px;
 	position: absolute;            
 
 }
 
 .lineuserimg{
-	margin-left: 382px;
+	margin-left: 322px;
 	position: absolute;            
 	visibility: hidden;  
 }
 
 .lineF {  
 	margin-top: 118px;
-	margin-left: 287px;
+	margin-left: 227px;
 	position: absolute;            
 	visibility: hidden;        
 }        
 
 .line1 {  
 	margin-top: 118px;
-	margin-left: 643px;
+	margin-left: 583px;
 	position: absolute;            
 	visibility: hidden;        
 }        
@@ -359,39 +367,39 @@ input[type=submit]:active {
 
  .lineS        {  
 	margin-top: 151px;
-	margin-left: 345px;
+	margin-left: 285px;
 	position: absolute;            
 	visibility: hidden;        
 }        
 
 .line2 {  
 	margin-top: 151px;
-	margin-left: 585px;
+	margin-left: 525px;
 	position: absolute;            
 	visibility: hidden;        
 }    
 
  .lineT        {  
 	margin-top: 185px;
-	margin-left: 287px;
+	margin-left: 227px;
 	position: absolute;            
 	visibility: hidden;        
 }   
 .line3 {  
 	margin-top: 185px;
-	margin-left: 643px;
+	margin-left: 583px;
 	position: absolute;            
 	visibility: hidden;        
 }    
 .line4 {  
 	margin-top: 219px;
-	margin-left: 585px;
+	margin-left: 525px;
 	position: absolute;            
 	visibility: hidden;        
 }   
 .line5 {  
 	margin-top: 253px;
-	margin-left: 875px;
+	margin-left: 814px;
 	position: absolute;            
 	visibility: hidden;        
 }    
@@ -619,7 +627,8 @@ input[type=submit]:active {
 	width: 170px;
 }
 .footerrow{
-	width: px;
+	width: 1400px;
+	margin: 0 auto;
 }
 .social-links {
     list-style: none;

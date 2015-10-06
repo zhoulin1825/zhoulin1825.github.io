@@ -243,7 +243,7 @@ input[type=submit]:active {
 .setformmargin input{
 	margin-bottom: 12px;
 		height: 36px;
-	width: 224px;
+	width: 204px;
 }
 .signupform{
 	float: right;
@@ -293,7 +293,7 @@ input[type=submit]:active {
 .form-group a:link,
 .form-group a:visited{
 	text-align: center;
-	width: 224px;
+	width: 204px;
 	height: 36px;
 	font-size: 16pt;
 	text-decoration: none;
@@ -485,7 +485,6 @@ input[type=submit]:active {
 	margin-left: 12px;
 	margin-bottom: 24px;
 	border: 2px solid #fff;
-    box-shadow: 0 2px 2px #efefef;
 }
 
 .serviceline {
@@ -545,7 +544,6 @@ input[type=submit]:active {
     margin-right: 12px;
 	margin-left: 12px;
 	border: 3px solid #fff;
-    box-shadow: 0 2px 2px #efefef;
     margin-bottom: 24px;
 }
 

@@ -1,15 +1,15 @@
 $(document).ready(function() {
-    /* For the sticky navigation 
     $('.js--section-form').waypoint(function(direction) {
         if (direction == "down") {
-            $('header').addClass('sticky');
+            $('#header').addClass('section-header');
+			$('#header').removeClass('section-header-before');
         } else {
-            $('header').removeClass('sticky');
+             $('#header').addClass('section-header-before');
+			$('#header').removeClass('section-header');
         }
     }, {
-      offset: '80px;'
+      offset: '60px;'
     });
-	*/
 
 	/* Scroll */
     $('.js--scroll-to-reg').click(function () {

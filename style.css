@@ -113,7 +113,7 @@ input[type=submit]:active {
 /* HEADER */
 /* ----------------------------------------------- */
 .section-header-before{
-	background-color: rgb(152,219,225);
+	background-color: rgb(170,251,225);
 	height: 84px;
 	padding: 0;
 	margin: 0;
@@ -121,7 +121,6 @@ input[type=submit]:active {
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 2px 10px #c1c1c1;
     z-index: 9999;
 }
 
@@ -134,12 +133,12 @@ input[type=submit]:active {
 	display: none;
 }
 .section-header-before .headername p{
-	font-size: 40px;;
+	font-size: 36px;;
 	font-family: 'Roboto', sans-serif;
 	color: black;
 	font-style: italic;
 	font-weight: 500;
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .section-header-before .index-header-button{
@@ -147,19 +146,20 @@ input[type=submit]:active {
 	margin-right: 48px;
 	margin-top: 19px;
 	border: 2px solid #fff;
-	height: 50px;
+	height: 49px;
 	padding-top: 9px;
 }
 
 
 .section-header-before .headerbtn:link,
 .section-header-before .headerbtn:visited{
+	
 	text-align: center;
 	width: 100%;
-	font-size: 16pt;
+	font-size: 15pt;
 	text-decoration: none;
 	font-weight:300;
-	padding:0px 38px;
+	padding:0px 33px;
     color: #fff;
 	letter-spacing:-1px;
 	text-transform: uppercase;
@@ -176,7 +176,7 @@ input[type=submit]:active {
 
 
 .section-header{
-	background-color: rgb(152,219,225);
+	background-color: rgb(170,251,225);
 	height: 60px;
 	padding: 0;
 	margin: 0;
@@ -217,7 +217,7 @@ input[type=submit]:active {
 .section-header .index-header-button{
 	float: right;
 	margin-right: 48px;
-	margin-top: 19px;
+	margin-top: 18px;
 	border: 2px solid #fff;
 	height: 36px;
 }
@@ -229,7 +229,7 @@ input[type=submit]:active {
 	font-size: 16pt;
 	text-decoration: none;
 	font-weight:300;
-	padding:0px 38px;
+	padding:0px 32px;
     color: #fff;
 	letter-spacing:-1px;
 	text-transform: uppercase;
@@ -254,7 +254,6 @@ input[type=submit]:active {
 }
 .indexslider img{
 	width: 100%;
-	height: 480px;
 }
 .section-poster h1{
 	font-family: 'Roboto', sans-serif;
@@ -266,7 +265,6 @@ input[type=submit]:active {
 	z-index: 1000;
 	font-size: 72px;
 	margin-top: 280px;
-	letter-spacing: 3px;
 	
 }
 .biggericon{
@@ -289,13 +287,14 @@ input[type=submit]:active {
 .signinform{
 	float: left;
 	text-align: left;
-	margin-left: 90px;
+	margin-left: 138px;
 }
 .signinform h3 ,
 .signupform h3{
 	text-align: left;
-	font-size: 17px;
-	width: 60%;
+	font-size: 20px;
+	font-weight: 400;
+	width: 40%;
 	margin-left: 32px;
 	letter-spacing: -1px;
 }
@@ -306,22 +305,19 @@ input[type=submit]:active {
 .setformmargin input{
 	margin-bottom: 12px;
 		height: 36px;
-	width: 224px;
+	width: 204px;
 }
 .signupform{
 	float: right;
 	text-align: left;
-	margin-right: 40px;
+	margin-right: 64px;
 	
 }
 .remenber_me{
 	margin-left: 45px;
-	height: 36px;
-	margin-top: -70px;
+	height: 35px;
 }
-.remenber_me input{
-	margin-top: 0px;
-}
+
 .remenber_me p{
 		margin-left:30px; 
 	margin-top: -31px;
@@ -330,8 +326,9 @@ input[type=submit]:active {
 }
 .section-form{
 	width: 100%;
-	background-color:rgb(236,234,232);
+	background-color:rgb(236,239,236);
 	height: 740px;
+	margin-bottom: -140px;
 }
 .formleft{
 	float: left;
@@ -347,7 +344,7 @@ input[type=submit]:active {
 	color: #555;
 }
 .form-group .formleft{
-	background-color:rgb(255,94,62);
+	background-color:rgb(250,72,71);
 }
 
 .form-group .formleft:hover{
@@ -357,16 +354,17 @@ input[type=submit]:active {
 .form-group a:link,
 .form-group a:visited{
 	text-align: center;
-	width: 224px;
+	width: 204px;
 	height: 36px;
-	font-size: 16pt;
+	font-size: 15pt;
 	text-decoration: none;
-	font-weight:300;
+	font-weight:100;
 	padding:0px 45px;
     color: #fff;
 	border: 2px solid #fff;
 	letter-spacing:-1px;
 	text-transform: uppercase;
+	padding-top: 2px;
 	transition: background-color 0.2s, color 0.2s;
 }
 
@@ -399,7 +397,7 @@ input[type=submit]:active {
 }
 .fourlinks{
 	padding-left: 0px;
-	padding-left:43px;
+	padding-left:34px;
 }
 
 
@@ -409,9 +407,9 @@ input[type=submit]:active {
 
 .userview{
 	width: 100%;
-	background-color:rgb(236,234,232);
+	background-color:rgb(236,239,236);
 	height: 740px;
-	margin-bottom: -160px;
+	margin-bottom: -235px;
 }
 
 .useralign{
@@ -419,12 +417,17 @@ input[type=submit]:active {
 	margin: 0 auto;
 }
 .formedit{
+	width: 100px;
 	margin-left: 445px;
 	margin-top: 360px;
-	position: absolute;            
 
 }
-
+.formedit{
+	width: 00px;
+}
+.useralign .form-group{
+	
+}
 .lineuserimg{
 	margin-left: 322px;
 	position: absolute;            
@@ -535,7 +538,7 @@ input[type=submit]:active {
 
 /* section service*/
 .section-service{
-	background-color:rgb(243,241,239);
+	background-color:rgb(241,243,241);
 	margin-bottom: -30px;
 }
 .section-service h3{
@@ -556,7 +559,6 @@ input[type=submit]:active {
     margin-right: 8px;
 	margin-left: 8px;
 	margin-bottom: 16px;
-	border: 2px solid #fff;
 }
 
 .serviceline {
@@ -582,7 +584,7 @@ input[type=submit]:active {
 .service_title{
 	position: absolute;
 	width: 100%;
-	font-weight: 500;
+	font-weight: 400;
 	text-transform: uppercase;
 	color: #555;
 	font-size: 24px;
@@ -593,7 +595,7 @@ input[type=submit]:active {
 
 .service_des{
 	position: absolute;
-	width: 80%;
+	width: 90%;
 	margin-left: 10%;
 	font-weight: 400;
 	color: #555;
@@ -604,12 +606,11 @@ input[type=submit]:active {
 }
 /* access section  */
 .section-access{
-	background-color:rgb(247,247,246);
+	background-color:rgb(246,247,245);
 	padding-bottom: 110px;
 }
 .section-access h3{
 	text-align: center;
-	margin-bottom: 60px;
 }
 
 .accessbox {
@@ -619,7 +620,6 @@ input[type=submit]:active {
 	height: 282px;
     margin-right: 8px;
 	margin-left: 8px;
-	border: 3px solid #fff;
     margin-bottom: 24px;
 }
 
@@ -676,10 +676,10 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 .section-footer{
-	background-color: rgb(221,219,214);;
+	background-color: rgb(224,229,223);;
 	padding-top: 50px;
 	padding-bottom: 30px;
-	height: 408px;
+	height: 360px;
 }
 .section-footer img{
 	width: 200px;
@@ -688,14 +688,13 @@ input[type=submit]:active {
 
 .footerleft{
 	width: 250px;
-	margin-left: 48px;
-	margin-right: 80px;
-
+	margin-left: 80px;
+	margin-right: 110px;
 }
 
 .footerright{
 	float: left;
-	margin-left: 46px
+	margin-right: 15px
 }
 
 .footerright h4{
@@ -775,7 +774,7 @@ input[type=submit]:active {
 .divider{
 	width: 94%;
 	margin-left: 3%;
-	margin-top: 125px;
+	margin-top: 77px;
 	border-bottom: 2px solid white;
 	
 

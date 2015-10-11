@@ -787,20 +787,126 @@ input[type=submit]:active {
 
 
 /* ---------------------------------------- */
-/*SHOWCASE----------------------*/
-/* ----------------------------------------*/
+/*----------------SHOWCASE------------------*/
+/* -----------------------------------------*/
 
-.showcase-container{
-	padding-top: 0px;
-	padding-left: 2.5%;
-	padding-bottom: 0px;
+.showcase-welcome{
+	width: 100%;
+	height: 300px;
+	background-color:rgb(236,239,236);
 }
-.showcase-work{
-	width: 32%;
+
+.showcase-welcome-container{
+	width: 1200px;
+}
+.showcase-welcome-container h1{
+	color: #555;
+}
+
+.showcase-links {
+    list-style: none;
+	margin-top: 10px;
+}
+
+.showcase-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.showcase-links li a:link,
+.showcase-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.showcase-links li a:link,
+.showcase-links li a:visited {
+    font-size: 160%;
+}
+
+
+.link-like {
+    color: #eb5656;
+}
+
+.link-star {
+    color: #ffa346;
+}
+
+.link-text {
+    color: #39a4dd;
+}
+
+
+
+/* ---------------------------------------- */
+/*----------------SHOWCASE---show fo the day---------------*/
+/* -----------------------------------------*/
+
+
+.showcase-best-work {
+	height: 400px;
+	width: 100%;
+	background-color: #e3e3e3;
+}
+
+
+.showcase-welcome-container h2{
+	margin-top: 0px;
+	text-align: left;
+	width: 200px;
 	float: left;
-	margin-right: 10px;
-	margin-bottom: 10px;
 }
+
+
+
+.showcase-person-links {
+    list-style: none;
+	margin-top: 10px;
+	width: 25%;
+	float: left;
+}
+.showcase-person-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.showcase-person-links li a:link,
+.showcase-person-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.showcase-person-links li a:link,
+.showcase-person-links li a:visited {
+    font-size: 100%;
+}
+
+.showcase-best-work-pic{
+	width: 50%;
+	float: right;
+}
+
+.showcase-best-work-pic img{
+	height: 100%;
+	float: right;
+	
+	
+}
+.showcase-welcome-title{
+	width: 40%;
+	float: left;
+}
+
+
+
+/* ---------------------------------------- */
+/*----------------SHOWCASE---works---------------*/
+/* -----------------------------------------*/
 
 
 
@@ -813,6 +919,18 @@ input[type=submit]:active {
 	text-align: center;
 }
 
+.showcase-container{
+	width: 1200px;
+	margin-top: 20px;
+}
+.showcase-work{
+	width: 32%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+
 .photo-photo {
     width: 100%;
     margin-left:0px;
@@ -823,7 +941,7 @@ input[type=submit]:active {
 .photo-photo img {
     opacity: 0.7;
     width: 100%;
-    height: auto;
+    height: 250px;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
 }
@@ -876,29 +994,3 @@ input[type=submit]:active {
         -moz-column-break-inside: avoid;
         column-break-inside: avoid;
     }
- 
-@media only screen and ( max-width: 40em ) /* 640px */
-{
-    #list
-    {
-        -webkit-column-count: 2;
-        -webkit-column-gap: 0.938em; /* 15px */
-        -moz-column-count: 2;
-        -moz-column-gap: 0.938em; /* 15px */
-        column-count: 2;
-        column-gap: 0.938em; /* 15px */
-    }
-        .item
-        {
-            margin-bottom: 0.938em; /* 15px */
-        }
-}
-@media only screen and ( max-width: 20em ) /* 320px */
-{
-    #list
-    {
-        -webkit-column-count: auto;
-        -moz-column-count: auto;
-        column-count: auto;
-    }
-}

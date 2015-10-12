@@ -265,7 +265,7 @@ input[type=submit]:active {
 	z-index: 1000;
 	font-size: 72px;
 	margin-top: 280px;
-	
+	font-weight: 400;
 }
 .biggericon{
 	font-size: 450%;
@@ -301,6 +301,25 @@ input[type=submit]:active {
 .signinform input,
 .signupform input{
 	height: 36px;
+	border-radius : none;
+}
+.form-control1 {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 .setformmargin input{
 	margin-bottom: 12px;
@@ -313,6 +332,7 @@ input[type=submit]:active {
 	margin-right: 64px;
 	
 }
+
 .remenber_me{
 	margin-left: 45px;
 	height: 35px;
@@ -324,9 +344,13 @@ input[type=submit]:active {
 	font-size: 12px;
 	font-weight: 300;
 }
+.remenber_me input{
+	width: 100%;
+	height: 100%;
+}
 .section-form{
 	width: 100%;
-	background-color:rgb(236,239,236);
+	background-color:rgba(221, 218, 214, 0.6);
 	height: 740px;
 	margin-bottom: -140px;
 }

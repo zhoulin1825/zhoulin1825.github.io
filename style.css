@@ -113,7 +113,7 @@ input[type=submit]:active {
 /* HEADER */
 /* ----------------------------------------------- */
 .section-header-before{
-	background-color: rgb(170,251,225);
+	background-color: #A6DBDE;
 	height: 84px;
 	padding: 0;
 	margin: 0;
@@ -176,7 +176,7 @@ input[type=submit]:active {
 
 
 .section-header{
-	background-color: rgb(170,251,225);
+	background-color: rgb(140, 212, 219);
 	height: 60px;
 	padding: 0;
 	margin: 0;
@@ -876,8 +876,16 @@ input[type=submit]:active {
 	background-color: #e3e3e3;
 }
 
+.showcase-best-work-container{
+	width: 900px;
+}
+.showcase-best-work-container h1{
+	color: #555;
+}
 
-.showcase-welcome-container h2{
+
+
+.showcase-best-work-container h2{
 	margin-top: 0px;
 	text-align: left;
 	width: 200px;
@@ -944,14 +952,15 @@ input[type=submit]:active {
 }
 
 .showcase-container{
-	width: 1200px;
+	width: 1400px;
 	margin-top: 20px;
 }
 .showcase-work{
-	width: 32%;
+	width: 24%;
 	float: left;
-	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 14px;
 }
 
 
@@ -982,20 +991,74 @@ input[type=submit]:active {
 
 
 .section-magzine{
-    background-color: #f4f4f4;
+    background-color: rgba(224, 224, 224, 0.37);
     height: auto;
 }
 
 .section-magzine h3{
 	text-align: center;
+	
 }
 
 
+.outer-item{
+	position: relative;
+	
+}
+.magzine-icon{
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: -25px;
+	border-radius: 30px;
+	background-color: rgba(253, 203, 90, 0.77);
+	margin-top: 15px;
+}
+.magzine-icon a{
+	position: absolute;
+	margin-left: 18px;
+	margin-top: 12px;
+	background-color: none;
+	
+	
+}
+.magzine-cat p{
+	position: absolute;
+	
+	float: left;
+	width: 100px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size: 15px;
+	color: #cbd3d3;
+}
+
+.magzine-head h3{
+	text-align: left;
+	margin-top: 50px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	margin-left: 30px;
+}
 .magzine-pic img{
 	
 	width:100%;
 }
 
+.magzine-info{
+	font-size: 15px;
+	width: 90%;
+	margin-left: 10%;
+	margin-top: 25px;
+}
+
+.magzine-btn{
+	width: 90%;
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
 #list
 {
     width: 100%;
@@ -1011,10 +1074,668 @@ input[type=submit]:active {
     column-gap: 1.875em; /* 30px */
     column-fill: auto;
 }
-    .item
-    {
-        margin-bottom: 1.875em; /* 15px 30px */
-        -webkit-column-break-inside: avoid;
-        -moz-column-break-inside: avoid;
-        column-break-inside: avoid;
-    }
+.item1
+{
+	width: 86%;	
+	height: 90%;
+	background-color: white;
+	margin-left: 7%;
+   margin-bottom: 1.875em; /* 15px 30px */
+   -webkit-column-break-inside: avoid;
+   -moz-column-break-inside: avoid;
+   column-break-inside: avoid;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+/*  artwork*/
+/* ----------------------------------------*/
+
+
+
+
+
+
+
+.section-showpic{
+	background-color: #e8e8e8;
+	margin-top: 60px;
+
+}
+.showpic{
+	background-color: #e8e8e8;
+}
+.showpic img {
+	width: 100%;
+	height: auto;
+	margin-top: -47px;
+}
+
+.three-btn{
+	width: 350px;
+	height: 60px;
+	margin-top: -75px;
+}
+
+
+.comment-text-area{
+	margin:20px 0 20px 0;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid white;
+}
+
+.comment-text-area-left{
+	float: left;
+	width: 25%;
+
+}
+.comment-text-area-left img{
+	width: 30%;
+	margin-left: 35%;
+}
+
+
+.comment-text-area-right{
+	width: 74%;
+	float:right;
+}
+
+
+.user-area .row img{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.jiangzhang{
+	margin-top: 10px;
+	font-size: 150%;
+}
+
+.jiangzhang a{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.otherwork img{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 10px;
+}
+
+
+
+/* ---------------------------------------- */
+/*  magzine*/
+/* ----------------------------------------*/
+
+
+.magzine-upload{
+	margin-top: 60px;
+}
+
+
+.mag-upload{
+	width: 700px;
+}
+
+
+.maginfo{ margin-bottom: 30px;}
+.mag-title input{
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+.mag-name , .mag-source{
+	width: 40%;
+}
+.mag-name {
+	float: left;
+}
+.mag-source{
+	float: right;
+}
+
+.mag-upload-pic{
+	margin-top: 150px;
+}
+
+
+
+
+.mag-upload-pic textarea{
+	width: 80%;
+	margin-left: 10%;
+	height: 200px;
+}
+
+
+.mag-intro textarea{
+	width: 80%;
+	margin-left: 10%;
+	height: 100px;
+}
+
+.mag-context textarea{
+	width: 80%;
+	margin-left: 10%;
+	height: 300px;
+}
+
+
+.mag-submit{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+/*  competition upload*/
+/* ----------------------------------------*/
+
+
+
+.competion-upload{
+	margin-top: 60px;
+}
+
+.comp-upload{
+	width: 700px;
+}
+.compinfo{ margin-bottom: 30px;}
+.comp-upload img{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 50px;
+}
+.comp-upload-pic textarea{
+	width: 80%;
+	margin-left: 10%;
+	height: 200px;
+}
+
+.comp-title input{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.comp-intro textarea{
+	width: 80%;
+	margin-left: 10%;
+	height: 200px;
+}
+
+
+.comp-submit{
+	text-align: right;
+}
+
+
+.comp-input{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/* ---------------------------------------- */
+/*  competition upload*/
+/* ----------------------------------------*/
+
+.user-info{
+	margin-top: 60px;
+	height: 600px;
+	background-color: #efefef;
+}
+
+.useralign h1{
+	color:black;
+	text-align: center;
+	letter-spacing: -3px;
+	margin-bottom: 100px;
+}
+.userimg{
+	
+	margin-left: 540px;
+	position: absolute;            
+	visibility: hidden;  
+}
+
+.user-info p{
+	color: black;
+	margin-top: 40px;
+	z-index: 200;
+
+}
+.user-info1{
+	margin-top: 40px;
+	margin-left: 170px;
+	position: absolute;    
+	background-color: rgb(170, 251, 225);
+	height: 60px;
+	width: 190px;
+	border: 2px solid white;
+}
+
+.user-info2{
+	margin-top: -40px;
+	margin-left: 860px;
+	position: absolute;    
+	background-color: rgb(247, 251, 165);
+	height: 40px;
+	width: 120px;
+	border: 2px solid white;
+}
+.user-info3{
+	margin-top: 15px;
+	margin-left: 820px;
+	position: absolute;    
+	background-color: rgb(170, 251, 225);
+	height: 40px;
+	width: 130px;
+	border: 2px solid white;
+}
+.user-info4{
+	margin-top: 90px;
+	margin-left: 920px;
+	position: absolute;    
+	background-color: rgb(166, 158, 157);
+	height: 40px;
+	width: 90px;
+	border: 2px solid white;
+}
+.user-info5{
+	margin-top: 180px;
+	margin-left: 770px;
+	position: absolute;    
+	background-color: rgb(224, 229, 223);
+	height: 40px;
+	width: 190px;
+	border: 2px solid white;
+}
+.white-line1{
+	width: 130px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 105px;
+	margin-left: 260px;
+}
+
+.white-line2{
+	width: 40px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 89px;
+	margin-left: 380px;
+	transform: rotate(-60deg);     
+}
+
+.white-line3{
+	width: 100px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 73px;
+	margin-left: 410px;
+}
+
+.white-line4{
+	width: 94px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 34px;
+	margin-left: 486px;
+	transform: rotate(-60deg);     
+}
+.white-line5{
+	width: 105px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: -8px;
+	margin-left: 556px;
+}
+
+.white-line6{
+	width: 94px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 34px;
+	margin-left: 636px;
+	transform: rotate(60deg);     
+}
+
+
+
+.white-line7{
+	width: 70px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 55px;
+	margin-left: 696px;
+}
+.white-line8{
+	width: 58px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 31px;
+	margin-left: 750px;
+	transform: rotate(-60deg);     
+}
+.white-line9{
+	width: 130px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 7px;
+	margin-left: 794px;
+}
+.white-line10{
+	width: 100px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 82px;
+	margin-left: 864px;
+}
+.white-line11{
+	width: 40px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 99px;
+	margin-left: 836px;
+	transform: rotate(-60deg);
+}
+.white-line12{
+	width: 152px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 117px;
+	margin-left: 694px;
+}
+.white-line13{
+	width: 80px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 134px;
+	margin-left: 644px;
+	transform: rotate(-60deg);
+}
+.white-line14{
+	width: 40px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 170px;
+	margin-left: 624px;
+}
+.white-line15{
+	width: 40px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 150px;
+	margin-left: 674px;
+}
+.white-line16{
+	width: 40px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 167px;
+	margin-left: 704px;
+	transform: rotate(60deg);
+}
+.white-line17{
+	width: 40px;
+	border-bottom: 2px solid white;
+	position: absolute;    
+	margin-top: 185px;
+	margin-left: 732px;
+}
+
+.user-info-title{
+	width: 112px;
+	height: 30px;
+	float: left;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 4px;
+}
+.userimg1{
+	width: 200px;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+
+.lineS1 {  
+	margin-top: 118px;
+	margin-left: 277px;
+	position: absolute;            
+	visibility: hidden;        
+}     
+.lineS2 {  
+	margin-top: 152px;
+	margin-left: 335px;
+	position: absolute;            
+	visibility: hidden;        
+}  
+.lines3{
+	margin-top: 185px;
+	margin-left: 509px;
+	position: absolute;            
+	visibility: hidden; 
+	
+}
+.user-info-sec{
+	width: 100%;
+	padding-top: 100px;
+	background-color:rgb(236, 239, 236);
+	padding-bottom: 100px;
+	margin-bottom: -100px;
+}
+.user-info-sec h1{
+	text-align: center;
+	color: black;
+	letter-spacing: -3px;
+}
+.user-info-left{
+	width: 35%;
+	float: left;
+}
+.userinfo-right{
+	width: 60%;
+	float: right;
+	
+	position: relative;
+}
+
+
+.userinfo-name h3{
+	height: 23px;
+	width: 100px;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 15px
+}
+.userinfo-name a{
+	height: 30px;
+	width: 400px;
+	position: absolute;
+	margin-top: 43px;
+	margin-left: 125px
+}
+.userinfo-title h3{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	margin-top: 85px;
+	font-size: 15px;
+	margin-left: 15px
+}
+.userinfo-title a{
+	height: 30px;
+	width: 400px;
+	position: absolute;
+	margin-top: 81px;
+	font-size: 15px;
+	margin-left: 125px
+}
+.userinfo-current h3{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	margin-top: 110px;
+	font-size: 15px;
+	margin-left: 15px
+}
+.userinfo-current a{
+	height: 30px;
+	width: 400px;
+	position: absolute;
+	margin-top: 108px;
+	margin-left: 125px;
+	font-size: 15px;
+}
+.userinfo-location h3{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	margin-top: 110px;
+	font-size: 15px;
+	margin-left: 235px;
+}
+.userinfo-location a{
+	height: 30px;
+	width: 400px;
+	position: absolute;
+	margin-top: 108px;
+	margin-left: 335px;
+		font-size: 15px;
+}
+
+.userinfo-previous h3{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	margin-top: 134px;
+	font-size: 15px;
+	margin-left: 15px;
+}
+.userinfo-previous input{
+	height: 20px;
+	width: 340px;
+	position: absolute;
+	margin-top: 134px;
+	font-size: 15px;
+	margin-left: 125px;
+}
+
+.userinfo-edu h3{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	margin-top: 160px;
+	font-size: 15px;
+	margin-left: 15px;
+}
+.userinfo-edu input{
+	height: 20px;
+	width: 340px;
+	position: absolute;
+	margin-top: 159px;
+	font-size: 15px;
+	margin-left: 125px;
+}
+.userinfo-deg h3{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	margin-top: 185px;
+	font-size: 15px;
+	margin-left: 15px;
+}
+.userinfo-deg input{
+	height: 20px;
+	width: 340px;
+	position: absolute;
+	margin-top: 183px;
+	font-size: 15px;
+	margin-left: 125px;
+}
+.userinfo-wechat h3{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	margin-top: 209px;
+	font-size: 15px;
+	margin-left: 15px;
+}
+.userinfo-wechat input{
+	height: 20px;
+	width: 100px;
+	position: absolute;
+	margin-top: 207px;
+	font-size: 15px;
+	margin-left: 125px;
+}
+.userinfo-hobby h3{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	margin-top: 209px;
+	font-size: 15px;
+	margin-left: 265px;
+}
+.userinfo-hobby input{
+	height: 20px;
+	width: 100px;
+	position: absolute;
+	margin-top: 207px;
+	font-size: 15px;
+	margin-left: 365px;
+}
+
+
+.userinfo-box{
+	width: 90%;
+	margin-left: 5%;
+	border-top: 2px solid white;
+}
+.userinfo-experience{
+	margin-top: 270px;
+}
+.userinfo-rewards{
+	margin-top: 53px;
+}
+.userinfo-press{
+	margin-top: 53px;
+}
+.userinfo-resume{
+	margin-top: 20px;
+}
+
+.userinfo-skills{
+	margin-top: 20px;
+}
+
+
+
+
+.user-info-form{
+	width: 834px;
+	margin: auto;
+	height: 594px;
+	border: 2px solid white;
+}
+
+
+
+

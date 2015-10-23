@@ -297,7 +297,7 @@ input[type=submit]:active {
 	width: 40%;
 	margin-left: 32px;
 	letter-spacing: -1px;
-	margin-bottom: 20px;
+	margin-bottom: 6px;
 }
 .signinform input,
 .signupform input{
@@ -323,7 +323,7 @@ input[type=submit]:active {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 .setformmargin input{
-	margin-bottom: 12px;
+	margin-top: 12px;
 		height: 36px;
 	width: 204px;
 }
@@ -333,7 +333,9 @@ input[type=submit]:active {
 	margin-right: 64px;
 	
 }
-
+.setformmargin-last{
+	margin-bottom: -5px;
+}
 .remenber_me{
 	margin-left: 45px;
 	height: 35px;
@@ -358,21 +360,30 @@ input[type=submit]:active {
 .formleft{
 	float: left;
 	margin-left: 45px;
+	margin-top: -17px;
+}
+.formleft1{
+	float: left;
+	margin-left: 45px;
+	margin-top: 12px;
 }
 
 .forgetpass {
 	text-align: left;
-	font-size: 14px;
+	font-size: 13px;
 	width: 60%;
 	margin-left: 32px;
 	letter-spacing: -1px;
 	color: #555;
 }
-.form-group .formleft{
+.form-group .formleft,
+.form-group .formleft1{
 	background-color:rgb(250,72,71);
+	margin-bottom: -4px;
 }
 
-.form-group .formleft:hover{
+.form-group .formleft:hover,
+.form-group .formleft1:hover{
 	background-color: rgb(250, 46, 7);
 	transition: background-color 0.2s;
 }
@@ -400,10 +411,12 @@ input[type=submit]:active {
 	width: 35%;
 }
 .formor{
-	margin-top: 20px;
+	margin-top: 28px;
 	text-align: center;
 	width: 204px;
 	margin-left: 29px;
+	letter-spacing: -2px;
+	margin-bottom: -4px;
 }
 .link-facebook {
     color: #3b5998;
@@ -430,25 +443,103 @@ input[type=submit]:active {
 /* USER login PART */
 /* ----------------------------------------------- */
 
+.myline1{
+	position: absolute;
+	margin-top: 128px;
+	margin-left: 272px;
+}
+
+.myline2{
+	position: absolute;
+	margin-top: 161px;
+	margin-left: 326px;
+}
+
+.myline3{
+	position: absolute;
+	margin-top: 192px;
+	margin-left: 272px;
+}
+.myline2 img,
+.myline3 img{
+	margin-right: 29px;
+}
+
+
+.whiteline1{
+	position: absolute;
+	margin-top: -119px;
+	width: 38px;
+	height: 2px;
+	margin-left: 547px;
+	border-bottom: 2px solid white;
+	transform: rotate(-60deg);  
+	
+}
+
+.whiteline2{
+	position: absolute;
+	margin-top: -152px;
+	width: 38px;
+	height: 2px;
+	margin-left: 547px;
+	border-bottom: 2px solid white;
+	transform: rotate(60deg);  
+	
+}
+
+.myline4{
+	position: absolute;
+	margin-top: 129px;
+	margin-left: 615px;
+}
+
+.myline5{
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 560px;
+}
+
+.myline6{
+	position: absolute;
+	margin-top: 193px;
+	margin-left: 614px;
+}
+
+.myline7{
+	position: absolute;
+	margin-top: 226px;
+	margin-left: 560px;
+}
+.myline4 img,
+.myline5 img,
+.myline6 img,
+.myline7 img{
+	margin-right: 29px;
+}
+
+
+
+
 .userview{
 	width: 100%;
-	background-color:rgb(236,239,236);
+	background-color:rgba(221, 218, 214, 0.6);
 	height: 740px;
 	margin-bottom: -235px;
+	margin-top: 140px;
 }
 
 .useralign{
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.formedit{
+.formedit1{
 	width: 100px;
-	margin-left: 445px;
+	margin-left: 453px;
 	margin-top: 360px;
 
 }
-.formedit{
-	width: 00px;
+.formedit1 a{
 }
 .useralign .form-group{
 	
@@ -597,8 +688,9 @@ input[type=submit]:active {
 }
 
 .servicebox img {
-    width: 100%;
-	height: 200px;
+    width:90%;
+	margin-left: 5%;
+	height: 190px;
 }
 
 .service_align{
@@ -607,27 +699,28 @@ input[type=submit]:active {
 
 
 .service_title{
+	font-family: 'Roboto Condensed', sans-serif;
 	position: absolute;
 	width: 100%;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #555;
 	font-size: 24px;
-	margin-top: -20px;
+	margin-top: -25px;
     text-align: center;
 	letter-spacing:-1px;
 }
 
 .service_des{
 	position: absolute;
-	width: 90%;
-	margin-left: 10%;
+	width: 74%;
+	margin-left: 13%;
 	font-weight: 400;
 	color: #555;
 	font-size: 15px;
 	margin-top: 20px;
     text-align: left;
-	letter-spacing:-1px;
+	letter-spacing:-0.6px;
 }
 /* access section  */
 .section-access{
@@ -687,7 +780,7 @@ input[type=submit]:active {
 	color: #555;
 	font-size: 16px;
 	margin-top: 50px;
-    text-align: left;
+    text-align: center;
 	letter-spacing: -1px;
 }
 
@@ -705,6 +798,7 @@ input[type=submit]:active {
 	padding-top: 50px;
 	padding-bottom: 30px;
 	height: 360px;
+	
 }
 .section-footer img{
 	width: 200px;
@@ -714,12 +808,12 @@ input[type=submit]:active {
 .footerleft{
 	width: 250px;
 	margin-left: 80px;
-	margin-right: 110px;
+	margin-right: 103px;
 }
 
 .footerright{
 	float: left;
-	margin-right: 15px
+	margin-right: 17px
 }
 
 .footerright h4{
@@ -799,13 +893,13 @@ input[type=submit]:active {
 .divider{
 	width: 94%;
 	margin-left: 3%;
-	margin-top: 77px;
+	margin-top: 67px;
 	border-bottom: 2px solid white;
 	
 
 }
 .copyright{
-	margin-top: 7px;
+	margin-top: 13px;
 	text-align: center;
 }
 

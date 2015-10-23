@@ -1,0 +1,467 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #555;
+	font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+.row {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+/* ----- HEADINGS ----- */
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+}
+
+/* ----------------------------------------------- */
+/* Showcase_new */
+/* ----------------------------------------------- */
+.section-header{
+	background-color: white;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+	border-bottom: 2px solid #d8d8d8;
+}
+
+.section-header .headername
+{
+	float:left;
+	margin-left: 48px;
+	height: 60px;
+}
+.section-header .headername2{
+	float:left;
+	color: black;
+	font-style: italic;
+	margin-left: 15px;
+	margin-top: 14px;
+	height: 30px;
+}
+.section-header .headername p{
+	font-size: 20pt;
+	font-family: 'Roboto', sans-serif;
+	color: #555;
+	font-style: italic;
+	font-weight: 500;
+	letter-spacing:-1px;
+	margin-top: 12px;
+}
+.section-header .headername2 p{
+	font-weight: 700;
+	font-size: 25px;
+	color: #555;
+}
+.section-header .index-header-button{
+	float: right;
+	margin-right: 48px;
+	margin-top: 18px;
+	border: 2px solid #555;
+	height: 30px;
+}
+
+.section-header .headerbtn:link,
+.section-header .headerbtn:visited{
+	text-align: center;
+	width: 100%;
+	font-size: 15pt;
+	text-decoration: none;
+	font-weight:300;
+	padding:0px 20px;
+    color: #555;
+	letter-spacing:-1px;
+	text-transform: uppercase;
+	transition: background-color 0.2s, color 0.2s;
+}
+.section-header .headerbtn:hover,
+.section-header .headerbtn:active {
+    background-color: 
+	transition: background-color 0.2s;
+}
+
+/* ---------------------------------------- */
+/*----------------SHOWCASE------------------*/
+/* -----------------------------------------*/
+
+.showcase-welcome{
+	width: 100%;
+	margin-top: 60px;
+	background-image: url(https://static.kickstarter.com/assets/projects/learn/confetti-bg-ce09f73cfcaa5838a596829ab22f15a0734d50454b0d6aaa7d73046405d3c238.jpg);
+	padding-bottom: 0px;
+}
+
+.showcase-welcome-part1{
+	width: 785px;
+}
+.showcase-welcome-part1 h1{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 43pt;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.showcase-welcome-part1 h6{
+	color: #bfbdbd;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	text-align: right
+}
+.showcase-upload-button{
+	width: 170px;
+	height: 55px;
+	border-radius: 5px;
+	background-color: rgb(122, 196, 203);
+	margin-left: 310px;
+	text-align: center;
+	padding-top: 13px;
+}
+.uploadbtn{
+	font-weight: 400;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.showcase-welcome-outer{
+	margin-top: 50px;
+	background-color: rgba(255, 255, 255, 0.50);
+}
+.showcase-welcome-part2{
+	width: 785px;
+}
+.showcase-test1,
+.showcase-test2,
+.showcase-test3{
+	width: 33%;
+	float: left;
+	height: 150px;
+}
+.showcase-welcome-part2 h1{
+	margin-top: 20px;
+	text-align: left;
+	color: rgb(122, 196, 203);
+	font-weight: 500;
+	margin-bottom: 0px;
+	
+}
+.showcase-welcome-part2 h2{
+	margin-top: 0px;
+	text-align: left;
+	color: rgb(122, 196, 203);
+	font-weight: 500;
+	font-size: 20pt;
+}
+.showcase-welcome-part2 h3{
+	margin-top: 0px;
+	text-align: left;
+	color: #555;
+	font-weight: 500;
+	font-size: 12pt;
+}
+
+
+
+
+/* ---------------------------------------- */
+/*----------------SHOWCASE---show fo the day---------------*/
+/* -----------------------------------------*/
+
+
+.showcase-best-work {
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.showcase-best-work-container{
+	width: 785px;
+}
+.showcase-bestwork-left,
+.showcase-bestwork-right{
+	width: 50%;
+	float: left;
+}
+.showcase-bestwork-right img{
+	width: 100%;
+}
+
+.showcase-bestwork-left h1{
+	margin-top: 100px;
+	color: #555;
+	font-size: 20pt;
+	letter-spacing: 0px;
+	margin-bottom: 0px;
+}
+
+.showcase-bestwork-left h2{
+	margin-top: 11px;
+	margin-bottom: 0px;
+	width: 30%;
+	text-align: left;
+	color: #555;
+	font-size: 15pt;
+	letter-spacing: 0px;
+	float: left;
+}
+
+
+
+
+
+
+.showcase-person-links {
+    list-style: none;
+	margin-top: 8px;
+	width: 100%;
+	float: left;
+	width: 60%;
+}
+.showcase-person-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.showcase-person-links li a:link,
+.showcase-person-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.showcase-person-links li a:link,
+.showcase-person-links li a:visited {
+    font-size: 70%;
+}
+.link-like {
+    color: #eb5656;
+}
+
+.link-star {
+    color: #ffa346;
+}
+
+.link-text {
+    color: #39a4dd;
+}
+
+
+/* ---------------------------------------- */
+/*----------------SHOWCASE---works---------------*/
+/* -----------------------------------------*/
+
+
+
+.section-showcase{
+	
+	background-color: #ededed;
+    height: auto;
+}
+
+.section-showcase h3{
+	text-align: center;
+}
+
+.showcase-container{
+	width: 1030px;
+	margin-top: 20px;
+}
+.showcase-work{
+	width: 245px;
+	float: left;
+	margin-left:2px ;
+	margin-right:2px ;
+	margin-bottom: 4px;
+}
+
+
+.photo-photo {
+    width: 100%;
+    margin-left:0px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: 170px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+/* ----------------------------------------------- */
+/* FOOTER PART */
+/* ----------------------------------------------- */
+
+.section-footer{
+	background-color: rgb(224,229,223);;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 360px;
+}
+.section-footer img{
+	width: 200px;
+	height: auto;
+}
+
+.footerleft{
+	width: 250px;
+	margin-left: 80px;
+	margin-right: 110px;
+}
+
+.footerright{
+	float: left;
+	margin-right: 15px
+}
+
+.footerright h4{
+	font-weight: 300;
+	font-size: 18pt;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+.footerright h5{
+	font-weight: 200;
+	font-size: 15pt;
+    letter-spacing: -1px;
+	margin-bottom: -7px;
+}
+.footerright img{
+	width: 140px;
+}
+.footerright{
+	width: 170px;
+}
+.footerrow{
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.social-links {
+    list-style: none;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
+.divider{
+	width: 94%;
+	margin-left: 3%;
+	margin-top: 77px;
+	border-bottom: 2px solid white;
+	
+
+}
+.copyright{
+	margin-top: 7px;
+	text-align: center;
+}
+
+
+
+

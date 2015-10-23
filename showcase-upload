@@ -56,7 +56,12 @@
 				<div class="mag-upload-pic maginfo">
 
 					  <!-- Textarea -->
-					  <img src="drop_here.png">
+					  <label class="control-label">Upload Artworks</label>
+					  <div class="controls">
+						<div class="textarea">
+							  <textarea type="" class=""> </textarea>
+						</div>
+					  </div>
 				</div><div class="mag-intro maginfo">
 
 					  <!-- Textarea -->
@@ -71,7 +76,12 @@
 				<div class="mag-context maginfo">
 
 					  <!-- Textarea -->
-					<img src="adaf2edda3cc7cd92963d4b23901213fb80e910b.jpg">
+					  <label class="control-label">Content</label>
+					  <div class="controls">
+						<div class="textarea">
+							  <textarea type="" class=""> </textarea>
+						</div>
+					  </div>
 				</div>
 
 				

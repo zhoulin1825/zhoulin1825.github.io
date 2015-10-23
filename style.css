@@ -297,6 +297,7 @@ input[type=submit]:active {
 	width: 40%;
 	margin-left: 32px;
 	letter-spacing: -1px;
+	margin-bottom: 20px;
 }
 .signinform input,
 .signupform input{
@@ -816,12 +817,11 @@ input[type=submit]:active {
 
 .showcase-welcome{
 	width: 100%;
-	height: 300px;
 	background-color:rgb(236,239,236);
 }
 
 .showcase-welcome-container{
-	width: 1200px;
+	width: 1000px;
 }
 .showcase-welcome-container h1{
 	color: #555;
@@ -871,13 +871,12 @@ input[type=submit]:active {
 
 
 .showcase-best-work {
-	height: 400px;
 	width: 100%;
 	background-color: #e3e3e3;
 }
 
 .showcase-best-work-container{
-	width: 900px;
+	width: 1000px;
 }
 .showcase-best-work-container h1{
 	color: #555;
@@ -924,8 +923,8 @@ input[type=submit]:active {
 }
 
 .showcase-best-work-pic img{
-	height: 100%;
-	float: right;
+	width: 100%;
+	float: left;
 	
 	
 }
@@ -952,15 +951,15 @@ input[type=submit]:active {
 }
 
 .showcase-container{
-	width: 1400px;
+	width: 1030px;
 	margin-top: 20px;
 }
 .showcase-work{
-	width: 24%;
+	width: 245px;
 	float: left;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	margin-bottom: 14px;
+	margin-left:2px ;
+	margin-right:2px ;
+	margin-bottom: 4px;
 }
 
 
@@ -1076,10 +1075,10 @@ input[type=submit]:active {
 }
 .item1
 {
-	width: 86%;	
+	width: 300px;	
 	height: 90%;
 	background-color: white;
-	margin-left: 7%;
+	margin-left: 30px;
    margin-bottom: 1.875em; /* 15px 30px */
    -webkit-column-break-inside: avoid;
    -moz-column-break-inside: avoid;
@@ -1097,10 +1096,31 @@ input[type=submit]:active {
 /* ----------------------------------------*/
 
 
+.artwork-cont{
+	width: 900px;
+}
+.artwork-cont-left{
+	width: 80%;
+	float: left;
+	
+}
+.artwork-cont-left img{
+	width: 100%;
+}
+.artwork-cont-right{
+	width: 18%;
+	float: right;
+	
+}
 
+.artwork-left{
+	margin-left: 60px;
 
-
-
+}
+.artword-right{
+	margin-left: 30px;
+	width: 180px;
+}
 
 .section-showpic{
 	background-color: #e8e8e8;
@@ -1113,20 +1133,35 @@ input[type=submit]:active {
 .showpic img {
 	width: 100%;
 	height: auto;
-	margin-top: -47px;
 }
 
+.comment-area h3{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
 .three-btn{
 	width: 350px;
 	height: 60px;
-	margin-top: -75px;
+	margin-bottom: 50px;
 }
 
+.comment-area textarea{
+	height: 150px;
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 70px;
+}
 
+.comment-area button{
+	float: right;
+	margin-right: 5%;
+	margin-top: -60px;
+	
+}
 .comment-text-area{
 	margin:20px 0 20px 0;
 	padding: 20px 0 20px 0;
-	border-bottom: 1px solid white;
+	border-top: 1px solid white;
 }
 
 .comment-text-area-left{
@@ -1144,8 +1179,13 @@ input[type=submit]:active {
 	width: 74%;
 	float:right;
 }
+.user-area1 h3{
+	margin-top: -20px;
+}
 
-
+.user-area1{
+	height: 400px;
+}
 .user-area .row img{
 	width: 80%;
 	margin-left: 10%;
@@ -1153,7 +1193,7 @@ input[type=submit]:active {
 
 .jiangzhang{
 	margin-top: 10px;
-	font-size: 150%;
+	font-size: 80%;
 }
 
 .jiangzhang a{
@@ -1176,6 +1216,7 @@ input[type=submit]:active {
 
 .magzine-upload{
 	margin-top: 60px;
+	background-color: #f4f4f4;
 }
 
 
@@ -1186,14 +1227,19 @@ input[type=submit]:active {
 
 .maginfo{ margin-bottom: 30px;}
 .mag-title input{
-	width: 80%;
-	margin-left: 10%;
+	width: 100%;
 }
-
+.maginfo img{
+	width: 100%;
+}
 
 .mag-name , .mag-source{
 	width: 40%;
 }
+.mag-name input, .mag-source input{
+	width: 100%;
+}
+
 .mag-name {
 	float: left;
 }
@@ -1209,21 +1255,18 @@ input[type=submit]:active {
 
 
 .mag-upload-pic textarea{
-	width: 80%;
-	margin-left: 10%;
+	width: 100%;
 	height: 200px;
 }
 
 
 .mag-intro textarea{
-	width: 80%;
-	margin-left: 10%;
-	height: 100px;
+	width: 100%;
+	height: 150px;
 }
 
 .mag-context textarea{
-	width: 80%;
-	margin-left: 10%;
+	width: 100%;
 	height: 300px;
 }
 
@@ -1247,32 +1290,47 @@ input[type=submit]:active {
 
 .competion-upload{
 	margin-top: 60px;
+	background-color: #ebebeb;
 }
-
+.competion-upload-sec{
+	background-color: #dddddd;
+	
+}
 .comp-upload{
 	width: 700px;
 }
+.comp-upload1{
+	width: 1000px;
+	height: 400px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.comp-upload1 img{
+	width: 100%;
+
+}
 .compinfo{ margin-bottom: 30px;}
+
+.compinfo img {
+	width: 700px;
+}
 .comp-upload img{
 	width: 100%;
 	height: 200px;
 	margin-bottom: 50px;
 }
 .comp-upload-pic textarea{
-	width: 80%;
-	margin-left: 10%;
+	width: 100%;
 	height: 200px;
 }
 
 .comp-title input{
-	width: 80%;
-	margin-left: 10%;
+	width: 100%;
 }
 
 .comp-intro textarea{
-	width: 80%;
-	margin-left: 10%;
-	height: 200px;
+	width: 100%;
+	height: 150px;
 }
 
 
@@ -1286,6 +1344,10 @@ input[type=submit]:active {
 	margin-bottom: 20px;
 }
 
+.comp-input input{
+	width: 347px;
+	margin-right: ;
+}
 
 
 
@@ -1738,4 +1800,253 @@ input[type=submit]:active {
 
 
 
+/* ---------------------------------------- */
+/*  showcase*/
+/* ----------------------------------------*/
 
+
+
+.showcase-upload{
+	background-color: #d9d9d9;
+	margin-top: 60px;
+}
+.show-upload-sec{
+	background-color: #c7c7c7;
+	
+}
+
+.show-upload{
+	width: 700px;
+	margin: auto;
+}
+
+.showcase-upload-pic textarea{
+	width: 100%;
+	height: 200px;
+}
+
+.showcase-submit div{
+	width: 100px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+.showcase-text p
+{
+	font-size: 30px;
+}
+.showcase-text select{
+	vertical-align: middle;
+}
+.showcase-text{
+	margin-top: 70px;
+	
+}
+.showcase-divider{
+	width: 100%;
+	height: 10px;
+	border-bottom: 2px solid white;
+}
+
+.showcase-title{
+	width: 300px;
+	float: left;
+	margin-top: 30px;
+}
+.showcase-year{
+	width: 300px;
+	float: right;
+	margin-top: 20px;
+}
+
+.showcase-intro textarea{
+	width: 100%;
+	height: 150px;
+	
+	
+}
+
+.showcase-context textarea{
+	width: 100%;
+}
+.showcase-submit2{
+	float: right;
+}
+
+
+/* ---------------------------------------- */
+/*----------------SHOWCASE------------------*/
+/* -----------------------------------------*/
+
+.competition-welcome{
+	width: 100%;
+	background-color:rgb(236,239,236);
+}
+
+.competition-welcome-container{
+	width: 1000px;
+}
+.competition-welcome-container h1{
+	color: #555;
+}
+
+.competition-links {
+    list-style: none;
+	margin-top: 10px;
+}
+
+.competition-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.competition-links li a:link,
+.competition-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.competition-links li a:link,
+.competition-links li a:visited {
+    font-size: 160%;
+}
+
+
+.link-like {
+    color: #eb5656;
+}
+
+.link-star {
+    color: #ffa346;
+}
+
+.link-text {
+    color: #39a4dd;
+}
+
+
+.competition-best-work {
+	width: 100%;
+	background-color: #e3e3e3;
+}
+
+.competition-best-work-container{
+	width: 1000px;
+}
+.competition-best-work-container h1{
+	color: #555;
+}
+
+
+
+.competition-best-work-container h2{
+	margin-top: 0px;
+	text-align: left;
+	width: 200px;
+	float: left;
+}
+
+
+
+.competition-person-links {
+    list-style: none;
+	margin-top: 10px;
+	width: 25%;
+	float: left;
+}
+.competition-person-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.competition-person-links li a:link,
+.competition-person-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.competition-person-links li a:link,
+.competition-person-links li a:visited {
+    font-size: 100%;
+}
+
+.competition-best-work-pic{
+	width: 50%;
+	float: right;
+}
+
+.competition-best-work-pic img{
+	width: 100%;
+	float: right;
+	
+	
+}
+.competition-welcome-title{
+	width: 40%;
+	float: left;
+}
+
+.section-competition{
+	background-color: #ebebeb;
+}
+.section-competition h3{
+	text-align: center;
+}
+
+
+.timeline{
+	width: 1100px;
+	margin: auto;
+}
+.timeline div{
+	margin-top: 30px;
+	width: 10%;
+	margin-left: 5.7%;
+	border-bottom: 4px solid rgb(140, 212, 219);
+	text-align: center;
+	float: left;
+}
+.competition-work{
+	margin: auto;
+	width: 1000px;
+}
+.competition-work h1{
+	margin-top: 140px;
+	color: #626262;
+	
+}
+.competition-time{
+	width: 30%;
+	float: left;
+}
+.competition-time h2{
+	text-align: left;
+}
+.competitio-current img{
+	width: 100%;
+}
+.competition-links2{
+	width: 40%;
+	float: right;
+}
+
+
+
+
+
+
+.showcase-upload-pic img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+
+.justtest{
+
+}

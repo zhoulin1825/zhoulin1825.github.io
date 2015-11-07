@@ -84,3 +84,19 @@ $(function(){
 				
 				
 })
+
+$(function(){	
+	$('.js-section-nav').waypoint(function(direction) {
+			if (direction == "down") {
+				$('#header').css("display", "none");
+				$('.bottomLine').css("display", "block");
+				
+			} else {
+				$('#header').css("display", "block");
+				$('.bottomLine').css("display", "none");
+			}
+		}, {
+		  offset: '60px;'
+		});
+
+})

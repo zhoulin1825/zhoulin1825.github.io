@@ -1,90 +1,6 @@
 
 
-
-$(function(){	
-
-		$(".top-nav li .down").hide();
-
-if(!$(".top-nav li .down").is(":animated")){
-	$(".top-nav li").mouseover(
-
-		function(){
-			
-				$(this).children(".top-nav li .down").stop(false,true).slideDown(500)
-		})
-		$(".top-nav li").mouseleave(
-		function(){
-				$(this).children(".top-nav li .down").stop(false,true).slideUp(500)
-			
-		})}
-
-	
-	$(".PS ul li").eq(2).addClass("PS ul RT");
-	
-
-			
-			
-			
-		
-})
-$(function(){	
-		
-		$(".access ul li").hover(function(){
-			
-                   $(this).children(".access ul li .li_img").css("height","174px")
-				    $(this).children(".access ul li h1").css("margin-top","35px")
-                    },function(){
-						
-                    $(this).children(".access ul li .li_img").css("height","114px")
-					 $(this).children(".access ul li h1").css("margin-top","59px")
-                });
-				
-				
-				
-				
-				
-				
-				$(".banner img").hide();
-	$(".banner img").eq(0).fadeIn();
-	$(".button a").hover(function(){
-		$(".button a").removeClass("white");
-		$(this).addClass("white");
-		var x=$(".button a").index(this);
-		$(".banner img").hide();
-		$(".banner img").eq(x).show();
-	
-	
-		})
-
-
-
-	
-	var n=0
-	function run(){
-		if(n>1){
-			n=0;
-		}else{
-			n=n+1;
-		}
-		
-		$(".banner img").hide();
-		$(".banner img").eq(n).fadeIn(2000);
-		$(".button a").removeClass("white");
-		$(".button a").eq(n).addClass("white");
-		
-	}
-	var timer=setInterval(run,5000);
-	$(".banner").hover(function(){
-		clearInterval(timer);	
-	},function(){
-		timer=setInterval(run,5000);
-		
-	})			
-				
-				
-				
-})
-
+/*导航切换---------------------------------*/
 $(function(){	
 	$('.js-section-nav').waypoint(function(direction) {
 			if (direction == "down") {
@@ -98,5 +14,144 @@ $(function(){
 		}, {
 		  offset: '60px;'
 		});
+		
+		
+	
 
 })
+
+/*button动态-----------------------------*/
+$(function(){
+	
+	
+	$(".l_box").hover(function(){
+			
+                  $(".l_hover").stop(false,true).animate({left:"300px"},500)
+				   $(".l_img").stop(false,true).animate({left:"87px"},500)
+				    
+                    },function(){
+						
+                  $(".l_hover").stop(false,true).animate({left:"81px"},500)
+				  $(".l_img").stop(false,true).animate({left:"-200px"},500)
+                });
+	
+	
+	$(".l_box1").hover(function(){
+			
+                  $(".l_hover1").stop(false,true).animate({left:"300px"},500)
+				  $(".l_img1").stop(false,true).animate({left:"89px"},500)
+				   
+                    },function(){
+						
+                  $(".l_hover1").stop(false,true).animate({left:"56px"},500)
+				  $(".l_img1").stop(false,true).animate({left:"-200px"},500)
+                });
+	$(".edit").hover(function(){
+			
+                  $(".edit a").stop(false,true).animate({left:"300px"},500)
+				   $(".edit img").stop(false,true).animate({left:"71px"},500)
+				   
+                    },function(){
+						
+                  $(".edit a").stop(false,true).animate({left:"75px"},500)
+				   $(".edit img").stop(false,true).animate({left:"-200px"},500)
+                });
+		
+	})
+	
+	
+	
+/*图标变色----------------*/
+
+$(function(){
+		$(".s_box .li_1 img").eq(1).hide();
+		$(".s_box .li_1").hover(function(){
+		
+				   $(".s_box .li_1 img").eq(0).hide();
+				   $(".s_box .li_1 img").eq(1).show();
+                    },function(){
+						
+                  $(".s_box .li_1 img").eq(1).hide();
+				   $(".s_box .li_1 img").eq(0).show();
+                });
+				
+		$(".s_box .li_2 img").eq(1).hide();
+		$(".s_box .li_2").hover(function(){
+		
+				   $(".s_box .li_2 img").eq(0).hide();
+				   $(".s_box .li_2 img").eq(1).show();
+                    },function(){
+						
+                  $(".s_box .li_2 img").eq(1).hide();
+				   $(".s_box .li_2 img").eq(0).show();
+                });
+				
+	    $(".s_box .li_3 img").eq(1).hide();
+		$(".s_box .li_3").hover(function(){
+		
+				   $(".s_box .li_3 img").eq(0).hide();
+				   $(".s_box .li_3 img").eq(1).show();
+                    },function(){
+						
+                  $(".s_box .li_3 img").eq(1).hide();
+				   $(".s_box .li_3 img").eq(0).show();
+                });	
+				
+	$(".s_box .li_4 img").eq(1).hide();
+		$(".s_box .li_4").hover(function(){
+		
+				   $(".s_box .li_4 img").eq(0).hide();
+				   $(".s_box .li_4 img").eq(1).show();
+                    },function(){
+						
+                  $(".s_box .li_4 img").eq(1).hide();
+				   $(".s_box .li_4 img").eq(0).show();
+                });
+		
+		$(".s_box .li_5 img").eq(1).hide();
+		$(".s_box .li_5").hover(function(){
+		
+				   $(".s_box .li_5 img").eq(0).hide();
+				   $(".s_box .li_5 img").eq(1).show();
+                    },function(){
+						
+                  $(".s_box .li_5 img").eq(1).hide();
+				   $(".s_box .li_5 img").eq(0).show();
+                });
+				
+		$(".s_box .li_6 img").eq(1).hide();
+		$(".s_box .li_6").hover(function(){
+		
+				   $(".s_box .li_6 img").eq(0).hide();
+				   $(".s_box .li_6 img").eq(1).show();
+                    },function(){
+						
+                  $(".s_box .li_6 img").eq(1).hide();
+				   $(".s_box .li_6 img").eq(0).show();
+                });
+				
+				
+				
+				$(".access ul li").hover(function(){
+			
+                   $(this).children(".access ul li .li_img").stop(false,true).animate({top:"0"},500)
+				    $(this).children(".access ul li h1").stop(false,true).animate({top:"223px"},500)
+                    },function(){
+						
+                    $(this).children(".access ul li .li_img").stop(false,true).animate({top:"-60px"},500)
+					 $(this).children(".access ul li h1").stop(false,true).animate({top:"173px"},500)
+                });
+				
+				
+})
+
+
+
+
+
+
+
+
+
+
+

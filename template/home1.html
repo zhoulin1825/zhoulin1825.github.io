@@ -30,6 +30,12 @@ var site_dir="{$GLOBALS['WWW']}";
 <script type="text/javascript" src="../skin/js/slick.min.js"></script>
 <script type="text/javascript" src="../skin/js/FengBragBar.js"></script>
 <script type="text/javascript" src="../skin/js/jquery.waypoints.min.js"></script>
+
+
+<script type="text/javascript" src="../skin/js/jquery.mousewheel.js"></script>
+
+<script type="text/javascript" src="../skin/js/mouse.js"></script>
+
 <script language="javascript">
 	$(function() {
 		$('.fade').slick({
@@ -94,6 +100,7 @@ var site_dir="{$GLOBALS['WWW']}";
 <!--中间开始-->
 <div id="container" class="js-section-nav">
 	<!--邮箱登录开始-->
+    
     <section class="email">
     <!--	左侧-->
     		<div class=" formcontainer signinform">
@@ -105,7 +112,10 @@ var site_dir="{$GLOBALS['WWW']}";
 								<input type="checkbox"> <p>Remember me</p>
 						</label>
                         <div class="both"></div>
-                        <input type="button" name="submit" value="LOGIN" class="left" onclick="OnSubmits()" />
+                        <div class="l_box">
+                        <input type="button" name="submit" value="" class="left" onclick="OnSubmits()" />
+                        <a href="" class="l_hover">LOGIN</a><a href="" class="l_img"><img src="../skin/images/l_jiantou_03.png" /></a>
+                        </div>
                         <a class="forget" href="#">Forget your password?</a>
                     </form>	
                      <h1 class="or">OR</h1>
@@ -135,56 +145,31 @@ var site_dir="{$GLOBALS['WWW']}";
                            
                         </div>
                         <!--滑动-->
-                        <input type="button" name="submit" value="GET STARTED!" class="left" onclick="OnSubmits()" />
-                       
+                        <div class="l_box1">
+                        <input type="button" name="submit" value="" class="left" onclick="OnSubmits()" />
+                        <a href="" class="l_hover1">GET STARTED!</a><a href="" class="l_img1"><img src="../skin/images/l_bike_03.png" /></a>
+                        </div>
                     </form>	
                      
 			</div>
   	
     </section>
-
+	</div>
 	<!--邮箱登录结束-->
-   	<!-- 六角形开始-->
-    <section class="liujiao">
-    	
-    	<div class="liu_left">
-        <!--左侧-->
-        	<a href="#" class="img_big"></a>
-            <a href="#" class="img_1"></a>
-            <a href="#" class="motto"></a>
-            <a href="#" class="male"></a>
-            <a href="#" class="follower"></a>
-            <a href="#" class="following"></a>
-            <a href="#" class="badge"></a>
-        
-        <!--右侧-->
-        	<a href="#" class="img_2"></a>
-            <a href="#" class="img_3"></a>
-            <a href="#" class="img_4"></a>
-            <a href="#" class="img_5"></a>
-            <a href="#" class="img_6"></a>
-            <a href="#" class="img_7"></a>
-            <a href="#" class="img_8"></a>
-            <a href="#" class="img_9"></a>
-            <a href="#" class="img_10"></a>
-            <a href="#" class="img_11"></a>
-            <a href="#" class="img_12"></a>
-        
-        
-        </div>
-    	
-    	<div class="edit">
-        	<a href="#">EDIT</a>
-        </div>
-    
-    
-    
-    </section>
-   	<!--六角形结束-->
+   
     
 </div>
 <!--services开始-->
 <div id="container1">
+<div class="se_box">
+	<div class="e_box">
+    	<div id="indexgs"> <img id="indexg2" src="../skin/images/g3.png" width="364" height="308"/>
+        <div id="indexg0"> <img src="../skin/images/g1.png" width="918" height="508"/> <a href="#"></a> </div>
+        <div id="indexg1"> <img src="../skin/images/g2.png" width="353" height="538"/> <a href="#"></a> </div>
+     </div>   
+        
+      </div> 
+   
     <section class="services">
     	<div class="s_top">
         	<h1>Services</h1>
@@ -194,36 +179,42 @@ var site_dir="{$GLOBALS['WWW']}";
         	<ul>
             	<li class="li_1">
                 	<img src="../skin/images/Li_1.png" />
+                    <img src="../skin/images/Li_11.png" />
                     <h1>SHOWCASE</h1>
                     <h2>Share own are works to public</h2>
                 
                 </li>
                 <li class="li_2">
                 	<img src="../skin/images/li_2.png" />
+                     <img src="../skin/images/Li_22.png" />
                     <h1>Magazine</h1>
                     <h2>Post updated art related info</h2>
                 
                 </li>
                	<li class="li_3">
                 	<img src="../skin/images/li_3.png" />
+                    <img src="../skin/images/Li_33.png" />
                     <h1>Competetion</h1>
                     <h2>Compete with others for big rewards</h2>
                 
                 </li>
                 <li class="li_4">
                 	<img src="../skin/images/li_4.png" />
+                    <img src="../skin/images/Li_44.png" />
                     <h1>academy</h1>
                     <h2>Get help on the academic area by professionals</h2>
                 
                 </li>
             	<li class="li_5">
                 	<img src="../skin/images/li_5.png" />
+                    <img src="../skin/images/Li_55.png" />
                     <h1>business</h1>
                     <h2>Explore career opportunities</h2>
                 
                 </li>
             	<li class="li_6">
                 	<img src="../skin/images/li_6.png" />
+                    <img src="../skin/images/Li_66.png" />
                     <h1>coming soon...</h1>
                     
                 
@@ -235,6 +226,7 @@ var site_dir="{$GLOBALS['WWW']}";
     
     
     </section>
+</div>    
     <!--services结束-->
     <!--Access-->
     <div id="container2">
@@ -248,10 +240,11 @@ var site_dir="{$GLOBALS['WWW']}";
     			<li class="li_11">
                 	<div class="li_img">
                     	<img src="../skin/images/li_img_03.png" />
+                        
                     
                     </div>
                 	<h1>know more about us</h1>
-                
+                	<h2>ABOUT US</h2>
                 </li>
                 <li class="li_22">
                 	<div class="li_img">
@@ -259,6 +252,7 @@ var site_dir="{$GLOBALS['WWW']}";
                     	
                     </div>
                 <h1>hiring information</h1>
+                <h2>ABOUT US</h2>
                 	
                 </li>
                 <li class="li_33">
@@ -268,6 +262,7 @@ var site_dir="{$GLOBALS['WWW']}";
                     </div>
                 
                 <h1>drop us a line</h1>
+                <h2>ABOUT US</h2>
                 </li>
     		</ul>
     	</section>

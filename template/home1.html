@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$GLOBALS['S']['title']}</title>
+<meta name="keywords" content="{$GLOBALS['S']['keywords']} " />
+<meta name="description" content="{$GLOBALS['S']['description']} " />
+<link  href="<!--skin目录-->images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link type="text/css" href="../skin/css/reset.css" rel="stylesheet">
+<link type="text/css" href="../skin/css/global.css" rel="stylesheet">
+<link type="text/css" href="../skin/css/style.css" rel="stylesheet">
+
+
+
+<link type="text/css" href="../skin/css/animate.min.css" rel="stylesheet">
+<!--字体样式-->
+
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900italic,900,700italic,700,500italic,500,400italic,300italic,100italic,100' rel='stylesheet' type='text/css'>
+
+
+<link type="text/css" href="../skin/css/amazeui.slick.css" rel="stylesheet">
+
+<script type="text/javascript">
+var site_dir="{$GLOBALS['WWW']}";
+</script>
+
+<script type="text/javascript" src="../skin/js/jquery.js"></script>
+<script type="text/javascript" src="../skin/js/j1.js"></script>
+<script type="text/javascript" src="../skin/js/slick.min.js"></script>
+<script type="text/javascript" src="../skin/js/FengBragBar.js"></script>
+<script type="text/javascript" src="../skin/js/jquery.waypoints.min.js"></script>
+
+
+<script type="text/javascript" src="../skin/js/jquery.mousewheel.js"></script>
+
+<script type="text/javascript" src="../skin/js/mouse.js"></script>
+
+<script language="javascript">
+	$(function() {
+		$('.fade').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 500,
+		  slidesToShow: 1,
+		  adaptiveHeight: true,
+		  
+		  slide: 'div',
+		  cssEase: 'linear'
+		});
+	});
+	
+</script>
+
+
+<script src="http://siteapp.baidu.com/static/webappservice/uaredirect.js" type="text/javascript"></script>
+<script type="text/javascript">uaredirect("/index.php?mobt=mob3");</script>
+    
+    
+
+</head>
+
+<body>
+ 
+<!--头部开始-->
+<!--header-->
+<section id="header">
+                
+                    <div id="logo">
+                    	<a href="index.php">Pigment</a>
+                    </div>
+                    	
+                    <div id="Login">
+						<a href="#">Login</a>                    
+                    </div>             
+                
+</section>
+<!--header-->
+
+<!--banner-->
+<section class="bannerBox">
+    <div class="slider fade">
+          <div><div class="image"><img src="../skin/images/banner_01.png"/></div></div>
+          <div><div class="image"><img src="../skin/images/banner_01.png"/></div></div>
+          <div><div class="image"><img src="../skin/images/banner_01.png"/></div></div>
+          <div><div class="image"><img src="../skin/images/banner_01.png"/></div></div>    
+    </div>
+</section>
+<!--banner结束-->  
+<section class="bottomLine">
+	<div id="logo1">
+		<a href="index.php">Pigment >></a>
+	</div>
+    <div id="Login1">
+		<a href="#">Login</a>                    
+    </div>     
+</section>
+<!--头部结束-->
+
+<!--中间开始-->
+<div id="container" class="js-section-nav">
+	<!--邮箱登录开始-->
+    
+    <section class="email">
+    <!--	左侧-->
+    		<div class=" formcontainer signinform">
+					<h3>Sign in with email</h3>
+					<form>
+                    	<input type="email" class=" form-control1" id="inputEmail3" placeholder="Email or username">
+                    	<input type="password" class="form-control1 setformmargin-last" id="inputPassword3" placeholder="Password">
+                    	<label class="remenber_me">
+								<input type="checkbox"> <p>Remember me</p>
+						</label>
+                        <div class="both"></div>
+                        <div class="l_box">
+                        <input type="button" name="submit" value="" class="left" onclick="OnSubmits()" />
+                        <a href="" class="l_hover">LOGIN</a><a href="" class="l_img"><img src="../skin/images/l_jiantou_03.png" /></a>
+                        </div>
+                        <a class="forget" href="#">Forget your password?</a>
+                    </form>	
+                     <h1 class="or">OR</h1>
+                     <h2 class="signwith">Sign in with:</h2>
+                     <div class="threeBox">
+                     	<a class="f" href="#"></a>
+                        <a class="in" href="#"></a>
+                        <a class="Q" href="#"></a>
+                     </div>
+			</div>
+  <!--  右侧-->
+  		<div class="signinform1">
+					<h3>Sign in with email</h3>
+					<form>
+                    	<input type="email" class=" form-control1" id="inputEmail3" placeholder="Email or username">
+                    	<input type="text" class="form-control1 setformmargin-last" id="inputPassword3" placeholder="Username">
+                        <input type="password" class="form-control1 setformmargin-last" id="inputPassword3" placeholder="Password">
+                        <input type="password" class="form-control1 setformmargin-last" id="inputPassword3" placeholder="Confirm password">
+                    	<label class="remenber_me">
+								<input type="checkbox"> <p>Agree to our Terms of service</p>
+						</label>
+                        <div class="both"></div>
+                        <!--滑动-->
+                        <div id="bar_bg">
+                            <div id="bar_click"></div>
+                            <div id="bar_percent"></div>
+                           
+                        </div>
+                        <!--滑动-->
+                        <div class="l_box1">
+                        <input type="button" name="submit" value="" class="left" onclick="OnSubmits()" />
+                        <a href="" class="l_hover1">GET STARTED!</a><a href="" class="l_img1"><img src="../skin/images/l_bike_03.png" /></a>
+                        </div>
+                    </form>	
+                     
+			</div>
+  	
+    </section>
+	</div>
+	<!--邮箱登录结束-->
+   
+    
+</div>
+<!--services开始-->
+<div id="container1">
+<div class="se_box">
+	<div class="e_box">
+    	<div id="indexgs"> <img id="indexg2" src="../skin/images/g3.png" width="364" height="308"/>
+        <div id="indexg0"> <img src="../skin/images/g1.png" width="918" height="508"/> <a href="#"></a> </div>
+        <div id="indexg1"> <img src="../skin/images/g2.png" width="353" height="538"/> <a href="#"></a> </div>
+     </div>   
+        
+      </div> 
+   
+    <section class="services">
+    	<div class="s_top">
+        	<h1>Services</h1>
+            <h3>Win badges and build up yourself by using services.</h3>
+        </div>
+        <div class="s_box">
+        	<ul>
+            	<li class="li_1">
+                	<img src="../skin/images/Li_1.png" />
+                    <img src="../skin/images/Li_11.png" />
+                    <h1>SHOWCASE</h1>
+                    <h2>Share own are works to public</h2>
+                
+                </li>
+                <li class="li_2">
+                	<img src="../skin/images/li_2.png" />
+                     <img src="../skin/images/Li_22.png" />
+                    <h1>Magazine</h1>
+                    <h2>Post updated art related info</h2>
+                
+                </li>
+               	<li class="li_3">
+                	<img src="../skin/images/li_3.png" />
+                    <img src="../skin/images/Li_33.png" />
+                    <h1>Competetion</h1>
+                    <h2>Compete with others for big rewards</h2>
+                
+                </li>
+                <li class="li_4">
+                	<img src="../skin/images/li_4.png" />
+                    <img src="../skin/images/Li_44.png" />
+                    <h1>academy</h1>
+                    <h2>Get help on the academic area by professionals</h2>
+                
+                </li>
+            	<li class="li_5">
+                	<img src="../skin/images/li_5.png" />
+                    <img src="../skin/images/Li_55.png" />
+                    <h1>business</h1>
+                    <h2>Explore career opportunities</h2>
+                
+                </li>
+            	<li class="li_6">
+                	<img src="../skin/images/li_6.png" />
+                    <img src="../skin/images/Li_66.png" />
+                    <h1>coming soon...</h1>
+                    
+                
+                </li>
+            
+            </ul>
+    	</div>
+    
+    
+    
+    </section>
+</div>    
+    <!--services结束-->
+    <!--Access-->
+    <div id="container2">
+    	<section class="access">
+            <div class="a_top">
+                <h1>Access</h1>
+                <h3>Share your works today and become famous in the internet community.</h3>
+            </div>
+        	
+        	<ul>
+    			<li class="li_11">
+                	<div class="li_img">
+                    	<img src="../skin/images/li_img_03.png" />
+                        
+                    
+                    </div>
+                	<h1>know more about us</h1>
+                	<h2>ABOUT US</h2>
+                </li>
+                <li class="li_22">
+                	<div class="li_img">
+                    	<img src="../skin/images/li_img_03.png" />
+                    	
+                    </div>
+                <h1>hiring information</h1>
+                <h2>ABOUT US</h2>
+                	
+                </li>
+                <li class="li_33">
+                	<div class="li_img">
+                    	<img src="../skin/images/li_img_03.png" />
+                    
+                    </div>
+                
+                <h1>drop us a line</h1>
+                <h2>ABOUT US</h2>
+                </li>
+    		</ul>
+    	</section>
+    </div>
+    
+    
+    <!--Access-->
+</div>    
+<!--中间结束-->
+<!--底部开始-->
+<div id="footer">
+	<div class="f_box">
+    	<div class="f_left">
+        	<div id="logo2">
+				<a href="index.php">Pigment</a>
+                
+			</div>
+            <ul>
+            	<li><a href="" class="youtu"></a></li>
+                <li><a href=""  class="g"></a></li>
+                <li><a href="" class="t"></a></li>
+                <li><a href="" class="niao"></a></li>
+                <li><a href="" class="xinhao"></a></li><br />
+                <li><a href="" class="p"></a></li>
+                <li><a href="" class="t1"></a></li>
+                <li><a href="" class="in1"></a></li>
+                <li><a href="" class="tp"></a></li>
+                <li><a href="" class="fr"></a></li>
+            
+            
+            </ul>
+        
+        </div>
+		<div class="f_nav">
+        	<ul>
+        		<li>
+                	<h1>Subscribe</h1>
+                
+                	<a href="">Newsletter</a>
+                    <a href="">RSS Feed</a>
+                    <a href="">Rss to Email</a>
+                                    
+                </li>
+        		<li>
+                	<h1>Company</h1>
+                
+                	 <a href="">About</a>
+                     <a href="">Stories</a>
+                     <a href="">Online activity</a>
+                     <a href="">Academy</a>
+                     <a href="">Business</a>
+                                    
+                </li>
+        		<li>
+                	<h1>Resources</h1>
+                
+                	 <a href="">Articles</a>
+                     <a href="">Schools</a>
+                     
+                                    
+                </li>
+        
+        
+        	</ul>
+        </div>
+        <div class="erwei">
+        	<h1>Wechat</h1>
+        
+        	<img src="../skin/images/wechat_03.png" />
+        
+        
+        </div>
+
+	</div>
+    
+    <div class="f_bottom">
+    	<div class="bottom_box">
+    	<h1>Privacy Policy I Terms</h1>
+        <h2>Made in NYC © 2015 LOGO</h2>
+    	<h3><a href="">English&nbsp;&nbsp;&nbsp; ︾</a></h3>
+    	</div>
+    
+    </div>
+</div>
+</body>
+</html>
